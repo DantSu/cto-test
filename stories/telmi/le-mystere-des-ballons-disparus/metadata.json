@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "story": {
+    "id": "telmi_le_mystere_des_ballons_disparus",
+    "title": "Le Mystère des Ballons Disparus",
+    "subtitle": "Une enquête de Lucas",
+    "summary": "Lucas doit retrouver les ballons de la fête de l'école en menant une enquête interactive.",
+    "description": "Les ballons colorés de l'école ont disparu ! Lucas interroge la maîtresse, ses amis et le gardien pour suivre les indices. Les enfants choisissent les pistes à explorer, collectionnent des indices et découvrent que la coupable est une pie mignonne qui voulait décorer son nid.",
+    "language": "fr",
+    "recommended_age": {
+      "min": 5,
+      "max": 8
+    },
+    "estimated_duration_minutes": 12,
+    "tags": [
+      "enquête",
+      "amitié",
+      "observation"
+    ],
+    "authors": [
+      {
+        "name": "Telmi Studio",
+        "role": "Auteur"
+      }
+    ],
+    "illustrators": [
+      {
+        "name": "Telmi Studio",
+        "role": "Illustration"
+      }
+    ],
+    "image": null,
+    "audio": null,
+    "cover": {
+      "title": "Le Mystère des Ballons Disparus",
+      "teaser": "Suivez Lucas dans une enquête pleine de couleurs et d'amitié.",
+      "image": null,
+      "audio": null,
+      "color": "#FEC95F"
+    },
+    "educational_objectives": [
+      "Encourager l'observation et la logique.",
+      "Inviter à écouter les autres et partager des indices.",
+      "Montrer l'importance de la collaboration."
+    ]
+  }
+}
