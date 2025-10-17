@@ -1,0 +1,606 @@
+{
+  "startAction": {
+    "action": "a0",
+    "index": 0
+  },
+  "inventory": [
+    {
+      "name": "Ruban arc-en-ciel",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 2,
+      "image": null
+    },
+    {
+      "name": "Trace scintillante",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 2,
+      "image": null
+    },
+    {
+      "name": "Plume argentée",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 2,
+      "image": null
+    }
+  ],
+  "stages": {
+    "s0": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s1": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a2",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s2": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a3",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s3": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a4",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s4": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a9",
+        "index": 0
+      },
+      "home": {
+        "action": "a2",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        }
+      ]
+    },
+    "s5": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a9",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s6": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s7": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 0
+      },
+      "home": {
+        "action": "a3",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s8": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a9",
+        "index": 0
+      },
+      "home": {
+        "action": "a4",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 1,
+          "number": 1
+        }
+      ]
+    },
+    "s9": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a6",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s10": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 1
+      },
+      "home": {
+        "action": "a4",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s11": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a9",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 2,
+          "number": 1
+        }
+      ]
+    },
+    "s12": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a6",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s13": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a7",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s14": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s15": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 0
+      },
+      "home": {
+        "action": "a9",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s16": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a8",
+        "index": 0
+      },
+      "home": {
+        "action": "a8",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s17": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    }
+  },
+  "actions": {
+    "a0": [
+      {
+        "stage": "s0"
+      }
+    ],
+    "a1": [
+      {
+        "stage": "s1"
+      },
+      {
+        "stage": "s2"
+      },
+      {
+        "stage": "s3"
+      }
+    ],
+    "a2": [
+      {
+        "stage": "s4",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 0,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s5"
+      }
+    ],
+    "a3": [
+      {
+        "stage": "s6"
+      },
+      {
+        "stage": "s7"
+      }
+    ],
+    "a4": [
+      {
+        "stage": "s8"
+      },
+      {
+        "stage": "s10",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          }
+        ]
+      }
+    ],
+    "a5": [
+      {
+        "stage": "s11"
+      },
+      {
+        "stage": "s12",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          }
+        ]
+      }
+    ],
+    "a6": [
+      {
+        "stage": "s13"
+      }
+    ],
+    "a7": [
+      {
+        "stage": "s16",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 1
+          },
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          },
+          {
+            "comparator": 4,
+            "item": 2,
+            "number": 1
+          }
+        ]
+      },
+      {
+        "stage": "s15",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 1
+          },
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 2,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s15",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 1
+          },
+          {
+            "comparator": 4,
+            "item": 2,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 1,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s15",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          },
+          {
+            "comparator": 4,
+            "item": 2,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 0,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s14",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 1,
+            "number": 0
+          },
+          {
+            "comparator": 1,
+            "item": 2,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s14",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 1,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 0,
+            "number": 0
+          },
+          {
+            "comparator": 1,
+            "item": 2,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s14",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 2,
+            "number": 1
+          },
+          {
+            "comparator": 1,
+            "item": 0,
+            "number": 0
+          },
+          {
+            "comparator": 1,
+            "item": 1,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s14",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 0,
+            "number": 0
+          },
+          {
+            "comparator": 1,
+            "item": 1,
+            "number": 0
+          },
+          {
+            "comparator": 1,
+            "item": 2,
+            "number": 0
+          }
+        ]
+      }
+    ],
+    "a8": [
+      {
+        "stage": "s17"
+      }
+    ],
+    "a9": [
+      {
+        "stage": "s9"
+      }
+    ]
+  }
+}
