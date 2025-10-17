@@ -1,0 +1,826 @@
+{
+  "schema_version": "1.0",
+  "initial_node": "s0",
+  "inventory": {
+    "max_items": 3,
+    "items": {
+      "indice_ruban": {
+        "name": "Ruban arc-en-ciel",
+        "description": "Un ruban brillant retrouvé dans l'armoire de la classe.",
+        "image": null,
+        "audio": null
+      },
+      "indice_trace": {
+        "name": "Trace scintillante",
+        "description": "Une traînée de paillettes trouvée dans l'abri du matériel.",
+        "image": null,
+        "audio": null
+      },
+      "indice_plume": {
+        "name": "Plume argentée",
+        "description": "Une plume brillante ramassée près du grand chêne.",
+        "image": null,
+        "audio": null
+      }
+    }
+  },
+  "nodes": {
+    "s0": {
+      "type": "story",
+      "note_id": "s0",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s0_a0",
+          "type": "choice",
+          "label": "Parler à la maîtresse Julie",
+          "target": "s1",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s0_a1",
+          "type": "choice",
+          "label": "Questionner les copains",
+          "target": "s2",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s0_a2",
+          "type": "choice",
+          "label": "Aller voir le gardien Paul",
+          "target": "s3",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s1": {
+      "type": "story",
+      "note_id": "s1",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s1_a0",
+          "type": "choice",
+          "label": "Inspecter l'armoire à ballons",
+          "target": "s4",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s1_a1",
+          "type": "choice",
+          "label": "Demander qui est arrivé tôt",
+          "target": "s5",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s1_a2",
+          "type": "choice",
+          "label": "Retourner au carnet d'enquête",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s2": {
+      "type": "story",
+      "note_id": "s2",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s2_a0",
+          "type": "choice",
+          "label": "Suivre Noé vers le préau",
+          "target": "s6",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s2_a1",
+          "type": "choice",
+          "label": "Écouter Lila raconter ce qu'elle a vu",
+          "target": "s7",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s2_a2",
+          "type": "choice",
+          "label": "Partager les infos dans le carnet",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s3": {
+      "type": "story",
+      "note_id": "s3",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s3_a0",
+          "type": "choice",
+          "label": "Ouvrir l'abri du matériel",
+          "target": "s8",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s3_a1",
+          "type": "choice",
+          "label": "Demander si l'on peut monter sur le toit",
+          "target": "s10",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s3_a2",
+          "type": "choice",
+          "label": "Revenir noter les réponses",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s4": {
+      "type": "story",
+      "note_id": "s4",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s4_a0",
+          "type": "choice",
+          "label": "Prendre le ruban arc-en-ciel",
+          "target": "s5",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_missing",
+              "item": "indice_ruban"
+            }
+          ],
+          "effects": [
+            {
+              "type": "inventory_add",
+              "item": "indice_ruban"
+            }
+          ]
+        },
+        {
+          "id": "s4_a1",
+          "type": "choice",
+          "label": "Le ruban est déjà dans ton sac",
+          "target": "s5",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_ruban"
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    "s5": {
+      "type": "story",
+      "note_id": "s5",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s5_a0",
+          "type": "choice",
+          "label": "Poser une dernière question à Julie",
+          "target": "s1",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s5_a1",
+          "type": "choice",
+          "label": "Revenir au carnet d'enquête",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s6": {
+      "type": "story",
+      "note_id": "s6",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s6_a0",
+          "type": "choice",
+          "label": "Suivre l'éclat vers le grand chêne",
+          "target": "s11",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s6_a1",
+          "type": "choice",
+          "label": "Retourner écouter les autres élèves",
+          "target": "s2",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s6_a2",
+          "type": "choice",
+          "label": "Noter l'indice dans le carnet",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s7": {
+      "type": "story",
+      "note_id": "s7",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s7_a0",
+          "type": "choice",
+          "label": "Aller observer les branches qui brillent",
+          "target": "s11",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s7_a1",
+          "type": "choice",
+          "label": "Retourner bavarder avec les amis",
+          "target": "s2",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s7_a2",
+          "type": "choice",
+          "label": "Consigner ce que tu as appris",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s8": {
+      "type": "story",
+      "note_id": "s8",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s8_a0",
+          "type": "choice",
+          "label": "Ramasser la trace scintillante",
+          "target": "s3",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": [
+            {
+              "type": "inventory_add",
+              "item": "indice_trace"
+            }
+          ]
+        },
+        {
+          "id": "s8_a1",
+          "type": "choice",
+          "label": "La trace est déjà dans ton carnet",
+          "target": "s3",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s8_a2",
+          "type": "choice",
+          "label": "Retourner faire le point",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s9": {
+      "type": "story",
+      "note_id": "s9",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s9_a0",
+          "type": "choice",
+          "label": "Retourner voir Julie",
+          "target": "s1",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s9_a1",
+          "type": "choice",
+          "label": "Interroger d'autres élèves",
+          "target": "s2",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s9_a2",
+          "type": "choice",
+          "label": "Demander l'aide du gardien",
+          "target": "s3",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s9_a3",
+          "type": "choice",
+          "label": "Observer le ciel",
+          "target": "s10",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s9_a4",
+          "type": "choice",
+          "label": "Comparer tous les indices",
+          "target": "s13",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s10": {
+      "type": "story",
+      "note_id": "s10",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s10_a0",
+          "type": "choice",
+          "label": "Monter sur le toit avec Paul",
+          "target": "s12",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s10_a1",
+          "type": "choice",
+          "label": "Chercher d'abord plus d'indices",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s10_a2",
+          "type": "choice",
+          "label": "Redescendre réfléchir",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s11": {
+      "type": "story",
+      "note_id": "s11",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s11_a0",
+          "type": "choice",
+          "label": "Ramasser la plume argentée",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_missing",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": [
+            {
+              "type": "inventory_add",
+              "item": "indice_plume"
+            }
+          ]
+        },
+        {
+          "id": "s11_a1",
+          "type": "choice",
+          "label": "La plume est déjà rangée",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s11_a2",
+          "type": "choice",
+          "label": "Observer encore le nid",
+          "target": "s12",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    "s12": {
+      "type": "story",
+      "note_id": "s12",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s12_a0",
+          "type": "choice",
+          "label": "Photographier le nid brillant",
+          "target": "s13",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "s12_a1",
+          "type": "choice",
+          "label": "Redescendre partager la découverte",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s13": {
+      "type": "story",
+      "note_id": "s13",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s13_a0",
+          "type": "outcome",
+          "label": "Tu as trouvé les trois indices !",
+          "target": "s16",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a1",
+          "type": "outcome",
+          "label": "Il te manque juste un petit indice.",
+          "target": "s15",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a2",
+          "type": "outcome",
+          "label": "Il te manque juste un petit indice.",
+          "target": "s15",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a3",
+          "type": "outcome",
+          "label": "Il te manque juste un petit indice.",
+          "target": "s15",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_ruban"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a4",
+          "type": "outcome",
+          "label": "Tu n'as retrouvé qu'un seul indice pour l'instant.",
+          "target": "s14",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a5",
+          "type": "outcome",
+          "label": "Tu n'as retrouvé qu'un seul indice pour l'instant.",
+          "target": "s14",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a6",
+          "type": "outcome",
+          "label": "Tu n'as retrouvé qu'un seul indice pour l'instant.",
+          "target": "s14",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_has",
+              "item": "indice_plume"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "s13_a7",
+          "type": "outcome",
+          "label": "Tu n'as pas encore d'indice, il faut continuer.",
+          "target": "s14",
+          "image": null,
+          "audio": null,
+          "conditions": [
+            {
+              "type": "inventory_missing",
+              "item": "indice_ruban"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_trace"
+            },
+            {
+              "type": "inventory_missing",
+              "item": "indice_plume"
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    "s14": {
+      "type": "ending",
+      "note_id": "s14",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s14_a0",
+          "type": "choice",
+          "label": "Retourner chercher des indices",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s15": {
+      "type": "ending",
+      "note_id": "s15",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s15_a0",
+          "type": "choice",
+          "label": "Trouver le dernier indice",
+          "target": "s9",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s16": {
+      "type": "ending",
+      "note_id": "s16",
+      "image": null,
+      "audio": null,
+      "actions": [
+        {
+          "id": "s16_a0",
+          "type": "choice",
+          "label": "Rendre les ballons à la classe",
+          "target": "s17",
+          "image": null,
+          "audio": null,
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    "s17": {
+      "type": "story",
+      "note_id": "s17",
+      "image": null,
+      "audio": null,
+      "actions": []
+    }
+  }
+}
