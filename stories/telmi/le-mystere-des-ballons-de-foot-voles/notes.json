@@ -1,0 +1,247 @@
+{
+  "s0": {
+    "title": "Le Mystère des Ballons de Foot Volés",
+    "notes": "La cloche de l'école sonne. Lina, capitaine de l'équipe, et Sami, son meilleur ami, apprennent que tous les ballons du tournoi ont disparu pendant la nuit.",
+    "color": "purple"
+  },
+  "s1": {
+    "title": "Arrivée pleine d'énergie",
+    "notes": "Les deux amis arrivent de bonne heure. La cour est encore fraîche et les enfants chuchotent en se demandant comment jouer sans ballons.",
+    "color": "blue"
+  },
+  "s2": {
+    "title": "Une salle vide",
+    "notes": "Dans le gymnase, les filets pendent tristement. Lina compte sur ses doigts les ballons manquants tandis que Sami remarque des casiers entrouverts.",
+    "color": "blue2"
+  },
+  "s3": {
+    "title": "Mission acceptée",
+    "notes": "La directrice explique que le tournoi doit commencer cet après-midi. Lina et Sami promettent de retrouver les ballons avant le coup d'envoi.",
+    "color": "purple2"
+  },
+  "s4": {
+    "title": "Par où commencer ?",
+    "notes": "OK pour interroger la directrice dans son bureau. HOME pour foncer directement vers le terrain de sport et regarder autour.",
+    "color": "orange"
+  },
+  "s5": {
+    "title": "Madame Lopez raconte",
+    "notes": "La directrice se souvient avoir vu une lumière tard le soir près du local sportif. Elle confie ses clés et encourage les enfants à noter chaque détail.",
+    "color": "blue"
+  },
+  "s6": {
+    "title": "Quelqu'un près du local",
+    "notes": "Madame Lopez se rappelle avoir aperçu une silhouette pressée près du local des ballons. Lina ajoute cet indice précieux dans son carnet.",
+    "color": "green"
+  },
+  "s7": {
+    "title": "Quel témoin privilégier ?",
+    "notes": "OK pour fouiller le local sportif immédiatement. HOME pour aller questionner Monsieur Dubois, le gardien de nuit.",
+    "color": "orange"
+  },
+  "s8": {
+    "title": "Terrain silencieux",
+    "notes": "Le gazon est couvert de rosée. Sami remarque que le but sud a été déplacé et qu'une odeur d'essence flotte encore dans l'air matinal.",
+    "color": "blue"
+  },
+  "s9": {
+    "title": "Empreintes boueuses",
+    "notes": "Près du banc des remplaçants, des empreintes fraîches de chaussures marquent la boue. Lina prend une photo avec la tablette de l'école.",
+    "color": "green"
+  },
+  "s10": {
+    "title": "Suivre ou fouiller ?",
+    "notes": "OK pour suivre les empreintes jusqu'à leur destination. HOME pour inspecter les vestiaires à la recherche d'objets oubliés.",
+    "color": "orange"
+  },
+  "s11": {
+    "title": "Local sportif mystérieux",
+    "notes": "Le local sent le caoutchouc. Des casiers sont entrouverts et un ballon crevé traîne près de la porte.",
+    "color": "blue"
+  },
+  "s12": {
+    "title": "Morceau de tissu bleu",
+    "notes": "Sous une caisse, Lina ramasse un morceau de tissu bleu accroché à un clou. Il ressemble au blouson que porte souvent Thomas.",
+    "color": "green"
+  },
+  "s13": {
+    "title": "Le gardien inquiet",
+    "notes": "Monsieur Dubois explique qu'il a entendu un cliquetis tard dans la soirée. Il pensait qu'un parent rangeait simplement du matériel.",
+    "color": "blue"
+  },
+  "s14": {
+    "title": "Bruit de moteur",
+    "notes": "Le gardien confirme qu'un moteur de camionnette a démarré tout près du terrain avant l'aube. Lina doute qu'un parent parte si tôt.",
+    "color": "green"
+  },
+  "s15": {
+    "title": "Empreintes en file indienne",
+    "notes": "Lina suit les pas qui contournent le gymnase. Certains crampons sont usés, d'autres semblent plus petits, comme ceux d'un enfant.",
+    "color": "blue"
+  },
+  "s16": {
+    "title": "Piste vers le parking",
+    "notes": "Les traces mènent au parking des visiteurs. Une traînée de boue s'arrête devant une place où l'on voit encore des stries de pneus frais.",
+    "color": "green"
+  },
+  "s17": {
+    "title": "Vestiaires en désordre",
+    "notes": "Sur un banc, des chaussettes sèchent encore. Sami découvre des casiers ouverts et des serviettes en boule.",
+    "color": "blue"
+  },
+  "s18": {
+    "title": "Ticket froissé",
+    "notes": "Un ticket de parking froissé date de la nuit dernière. Il indique une sortie à 5 h 12, juste avant le lever du soleil.",
+    "color": "green"
+  },
+  "s19": {
+    "title": "Les témoins élèves",
+    "notes": "Lina réunit les camarades. Chacun raconte ce qu'il a vu ou entendu sans interrompre les autres.",
+    "color": "purple"
+  },
+  "s20": {
+    "title": "Le récit de Marie",
+    "notes": "Marie dit avoir aperçu un adulte portant un sac plein à dos rayé quitter la cour pendant que les autres jouaient.",
+    "color": "green"
+  },
+  "s21": {
+    "title": "Parents ou caméras ?",
+    "notes": "OK pour interroger les parents restés près de la grille. HOME pour vérifier les caméras avec la directrice.",
+    "color": "orange"
+  },
+  "s22": {
+    "title": "Madame Martin se confie",
+    "notes": "La maman de Léa explique qu'elle a vu Thomas tourner autour du local avec un sac cabas et un air contrarié.",
+    "color": "blue"
+  },
+  "s23": {
+    "title": "Thomas sous les projecteurs",
+    "notes": "L'indice sur Thomas rejoint celui du tissu bleu. Lina note que le garçon était jaloux de ne pas être titulaire.",
+    "color": "green"
+  },
+  "s24": {
+    "title": "Images du soir",
+    "notes": "Les caméras montrent la cour presque vide. Lina remarque un reflet métallique près du portail arrière.",
+    "color": "blue"
+  },
+  "s25": {
+    "title": "Silhouette à casquette",
+    "notes": "Sur la vidéo, une personne portant une casquette et un sac volumineux franchit la grille avec précaution.",
+    "color": "green"
+  },
+  "s26": {
+    "title": "Bilan des indices",
+    "notes": "Les enfants alignent tous les indices et vérifient leur carnet. De nombreuses preuves pointent vers un plan organisé.",
+    "color": "purple"
+  },
+  "s27": {
+    "title": "Les quatre suspects",
+    "notes": "Monsieur Dubois, Thomas Legrand, Madame Petit du club voisin et Monsieur Rousseau l'entraîneur adjoint apparaissent sur le tableau.",
+    "color": "purple2"
+  },
+  "s28": {
+    "title": "Choisir le coupable",
+    "notes": "OK pour accuser Thomas sur-le-champ. HOME pour examiner les autres suspects avant de prendre une décision.",
+    "color": "orange"
+  },
+  "s29": {
+    "title": "Les ballons reviennent",
+    "notes": "Grâce aux preuves, Thomas avoue avoir caché les ballons dans la remise pour se venger. Les matchs peuvent reprendre dans la bonne humeur.",
+    "color": "yellow"
+  },
+  "s30": {
+    "title": "Des doutes subsistent",
+    "notes": "Thomas reconnaît avoir été tenté, mais Lina note que les preuves sont limites. Elle propose de surveiller le terrain pour être sûre.",
+    "color": "orange2"
+  },
+  "s31": {
+    "title": "Mystère non résolu",
+    "notes": "En accusant la mauvaise personne, l'équipe se fâche et personne ne sait où sont les ballons. Il faudra recommencer l'enquête.",
+    "color": "red"
+  },
+  "s32": {
+    "title": "Une fausse piste solide",
+    "notes": "Les indices semblaient pointer vers ce suspect, mais la vérité échappe encore aux enquêteurs. Lina promet de reprendre calmement.",
+    "color": "red2"
+  },
+  "s33": {
+    "title": "Enquête parfaite !",
+    "notes": "Toutes les preuves concordent et Thomas reconnaît son erreur. Lina lui propose de réparer en aidant à préparer le tournoi.",
+    "color": "green2"
+  },
+  "s34": {
+    "title": "Interroger le gardien ?",
+    "notes": "OK pour aller parler à Monsieur Dubois et vérifier son alibi. HOME pour continuer l'enquête avec les indices déjà récoltés.",
+    "color": "orange"
+  },
+  "s35": {
+    "title": "Fouiller le local ?",
+    "notes": "OK pour retourner fouiller le local et chercher d'autres traces. HOME pour passer à l'étape suivante de l'enquête.",
+    "color": "orange"
+  },
+  "s36": {
+    "title": "Faire le point",
+    "notes": "Lina et Sami récapitulent ce qu'ils savent grâce à la directrice. Ils décident où aller pour continuer la chasse aux indices.",
+    "color": "purple"
+  },
+  "s37": {
+    "title": "Cap sur le terrain",
+    "notes": "Les enfants filent vers le terrain pour inspecter chaque recoin et suivre les traces laissées dans l'herbe.",
+    "color": "blue"
+  },
+  "s38": {
+    "title": "Réunion stratégique",
+    "notes": "Tout le monde se retrouve près de la salle vidéo pour partager les indices et préparer l'accusation finale.",
+    "color": "purple2"
+  },
+  "s39": {
+    "title": "Poursuivre les traces ?",
+    "notes": "OK pour fouiller les vestiaires à la recherche d'indices cachés. HOME pour continuer grâce aux pistes déjà trouvées sur le parking.",
+    "color": "orange"
+  },
+  "s40": {
+    "title": "Suivre les empreintes ?",
+    "notes": "OK pour retourner suivre les empreintes jusqu'au parking. HOME pour s'appuyer sur les indices découverts dans les vestiaires.",
+    "color": "orange"
+  },
+  "s41": {
+    "title": "Indices du parking",
+    "notes": "Lina photographie les pneus et le ticket, convaincue que le véhicule observé par le gardien est la clé du mystère.",
+    "color": "green"
+  },
+  "s42": {
+    "title": "Retour au bureau",
+    "notes": "Les enfants retournent voir Madame Lopez pour lui raconter ce qu'ils ont trouvé avant de poursuivre l'enquête.",
+    "color": "blue"
+  },
+  "s43": {
+    "title": "Consulter les caméras ?",
+    "notes": "OK pour visionner les images avec la directrice. HOME pour s'appuyer uniquement sur les témoignages des parents.",
+    "color": "orange"
+  },
+  "s44": {
+    "title": "Questionner les parents ?",
+    "notes": "OK pour discuter avec les parents présents près de la grille. HOME pour continuer sans ce nouvel indice.",
+    "color": "orange"
+  },
+  "s45": {
+    "title": "Tout est prêt",
+    "notes": "Carnets ouverts, Lina et Sami classent les indices par suspect avant de rendre leur verdict.",
+    "color": "purple"
+  },
+  "s46": {
+    "title": "Accuser Monsieur Dubois ?",
+    "notes": "OK pour accuser le gardien en pensant qu'il avait besoin d'argent. HOME pour découvrir les deux autres suspects possibles.",
+    "color": "orange"
+  },
+  "s47": {
+    "title": "Accuser Madame Petit ?",
+    "notes": "OK pour choisir Madame Petit, présidente du club rival. HOME pour examiner la piste de Monsieur Rousseau.",
+    "color": "orange"
+  },
+  "s48": {
+    "title": "Accuser Monsieur Rousseau ?",
+    "notes": "OK pour accuser l'entraîneur adjoint en conflit avec l'école. HOME pour revenir à la liste principale des suspects.",
+    "color": "orange"
+  }
+}

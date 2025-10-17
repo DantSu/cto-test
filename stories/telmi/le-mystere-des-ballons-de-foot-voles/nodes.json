@@ -1,0 +1,1363 @@
+{
+  "startAction": {
+    "action": "a0",
+    "index": 0
+  },
+  "inventory": [
+    {
+      "name": "Indices collectés",
+      "initialNumber": 0,
+      "maxNumber": 9,
+      "display": 2,
+      "image": null
+    },
+    {
+      "name": "flag_local",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_gardien",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_empreintes",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_vestiaires",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_parents",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_cameras",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_branchA_done",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    },
+    {
+      "name": "flag_branchB_done",
+      "initialNumber": 0,
+      "maxNumber": 1,
+      "display": 0,
+      "image": null
+    }
+  ],
+  "stages": {
+    "s0": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 0
+      },
+      "home": {
+        "action": "a1",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s1": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 1
+      },
+      "home": {
+        "action": "a1",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s2": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a1",
+        "index": 2
+      },
+      "home": {
+        "action": "a1",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s3": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a2",
+        "index": 0
+      },
+      "home": {
+        "action": "a2",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s4": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a3",
+        "index": 0
+      },
+      "home": {
+        "action": "a4",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s5": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a3",
+        "index": 1
+      },
+      "home": {
+        "action": "a3",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s6": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a3",
+        "index": 2
+      },
+      "home": {
+        "action": "a3",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        }
+      ]
+    },
+    "s7": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 0
+      },
+      "home": {
+        "action": "a6",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s8": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a4",
+        "index": 1
+      },
+      "home": {
+        "action": "a4",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s9": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a4",
+        "index": 2
+      },
+      "home": {
+        "action": "a4",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        }
+      ]
+    },
+    "s10": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a7",
+        "index": 0
+      },
+      "home": {
+        "action": "a8",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s11": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 1
+      },
+      "home": {
+        "action": "a5",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s12": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a10",
+        "index": 0
+      },
+      "home": {
+        "action": "a10",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 1,
+          "number": 1
+        }
+      ]
+    },
+    "s13": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a6",
+        "index": 1
+      },
+      "home": {
+        "action": "a6",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s14": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a11",
+        "index": 0
+      },
+      "home": {
+        "action": "a11",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 2,
+          "number": 1
+        }
+      ]
+    },
+    "s15": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a7",
+        "index": 1
+      },
+      "home": {
+        "action": "a7",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s16": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a12",
+        "index": 0
+      },
+      "home": {
+        "action": "a12",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 3,
+          "number": 1
+        }
+      ]
+    },
+    "s17": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a8",
+        "index": 1
+      },
+      "home": {
+        "action": "a8",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s18": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a13",
+        "index": 0
+      },
+      "home": {
+        "action": "a13",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 4,
+          "number": 1
+        }
+      ]
+    },
+    "s19": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a15",
+        "index": 1
+      },
+      "home": {
+        "action": "a15",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s20": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a15",
+        "index": 2
+      },
+      "home": {
+        "action": "a15",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        }
+      ]
+    },
+    "s21": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a17",
+        "index": 0
+      },
+      "home": {
+        "action": "a18",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s22": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a17",
+        "index": 1
+      },
+      "home": {
+        "action": "a17",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s23": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a19",
+        "index": 0
+      },
+      "home": {
+        "action": "a19",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 5,
+          "number": 1
+        }
+      ]
+    },
+    "s24": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a18",
+        "index": 1
+      },
+      "home": {
+        "action": "a18",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s25": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a20",
+        "index": 0
+      },
+      "home": {
+        "action": "a20",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 0,
+          "number": 1
+        },
+        {
+          "type": 2,
+          "item": 6,
+          "number": 1
+        }
+      ]
+    },
+    "s26": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a21",
+        "index": 1
+      },
+      "home": {
+        "action": "a21",
+        "index": 1
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s27": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a21",
+        "index": 2
+      },
+      "home": {
+        "action": "a21",
+        "index": 2
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s28": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a23",
+        "index": 0
+      },
+      "home": {
+        "action": "a22",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s29": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s30": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s31": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s32": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s33": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a0",
+        "index": 0
+      },
+      "home": {
+        "action": "a0",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s34": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a6",
+        "index": 0
+      },
+      "home": {
+        "action": "a24",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s35": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a5",
+        "index": 0
+      },
+      "home": {
+        "action": "a24",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s36": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a14",
+        "index": 0
+      },
+      "home": {
+        "action": "a14",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 7,
+          "number": 1
+        }
+      ]
+    },
+    "s37": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a4",
+        "index": 0
+      },
+      "home": {
+        "action": "a4",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s38": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a15",
+        "index": 0
+      },
+      "home": {
+        "action": "a15",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s39": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a8",
+        "index": 0
+      },
+      "home": {
+        "action": "a25",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s40": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a7",
+        "index": 0
+      },
+      "home": {
+        "action": "a25",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s41": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a16",
+        "index": 0
+      },
+      "home": {
+        "action": "a16",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      },
+      "items": [
+        {
+          "type": 2,
+          "item": 8,
+          "number": 1
+        }
+      ]
+    },
+    "s42": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a3",
+        "index": 0
+      },
+      "home": {
+        "action": "a3",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s43": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a18",
+        "index": 0
+      },
+      "home": {
+        "action": "a26",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s44": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a17",
+        "index": 0
+      },
+      "home": {
+        "action": "a26",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s45": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a21",
+        "index": 0
+      },
+      "home": {
+        "action": "a21",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": false,
+        "autoplay": true
+      }
+    },
+    "s46": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a30",
+        "index": 0
+      },
+      "home": {
+        "action": "a27",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s47": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a31",
+        "index": 0
+      },
+      "home": {
+        "action": "a28",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    },
+    "s48": {
+      "image": null,
+      "audio": null,
+      "ok": {
+        "action": "a32",
+        "index": 0
+      },
+      "home": {
+        "action": "a29",
+        "index": 0
+      },
+      "control": {
+        "ok": true,
+        "home": true,
+        "autoplay": false
+      }
+    }
+  },
+  "actions": {
+    "a0": [
+      {
+        "stage": "s0"
+      }
+    ],
+    "a1": [
+      {
+        "stage": "s1"
+      },
+      {
+        "stage": "s2"
+      },
+      {
+        "stage": "s3"
+      }
+    ],
+    "a2": [
+      {
+        "stage": "s4"
+      }
+    ],
+    "a3": [
+      {
+        "stage": "s5"
+      },
+      {
+        "stage": "s6"
+      },
+      {
+        "stage": "s7"
+      }
+    ],
+    "a4": [
+      {
+        "stage": "s8"
+      },
+      {
+        "stage": "s9"
+      },
+      {
+        "stage": "s10"
+      }
+    ],
+    "a5": [
+      {
+        "stage": "s11"
+      },
+      {
+        "stage": "s12"
+      }
+    ],
+    "a6": [
+      {
+        "stage": "s13"
+      },
+      {
+        "stage": "s14"
+      }
+    ],
+    "a7": [
+      {
+        "stage": "s15"
+      },
+      {
+        "stage": "s16"
+      }
+    ],
+    "a8": [
+      {
+        "stage": "s17"
+      },
+      {
+        "stage": "s18"
+      }
+    ],
+    "a10": [
+      {
+        "stage": "s34",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 2,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s36"
+      }
+    ],
+    "a11": [
+      {
+        "stage": "s35",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 1,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s36"
+      }
+    ],
+    "a12": [
+      {
+        "stage": "s39",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 4,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s41"
+      }
+    ],
+    "a13": [
+      {
+        "stage": "s40",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 3,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s41"
+      }
+    ],
+    "a14": [
+      {
+        "stage": "s37",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 8,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s38"
+      }
+    ],
+    "a15": [
+      {
+        "stage": "s19"
+      },
+      {
+        "stage": "s20"
+      },
+      {
+        "stage": "s21"
+      }
+    ],
+    "a16": [
+      {
+        "stage": "s42",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 7,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s38"
+      }
+    ],
+    "a17": [
+      {
+        "stage": "s22"
+      },
+      {
+        "stage": "s23"
+      }
+    ],
+    "a18": [
+      {
+        "stage": "s24"
+      },
+      {
+        "stage": "s25"
+      }
+    ],
+    "a19": [
+      {
+        "stage": "s43",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 6,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s45"
+      }
+    ],
+    "a20": [
+      {
+        "stage": "s44",
+        "conditions": [
+          {
+            "comparator": 1,
+            "item": 5,
+            "number": 0
+          }
+        ]
+      },
+      {
+        "stage": "s45"
+      }
+    ],
+    "a21": [
+      {
+        "stage": "s26"
+      },
+      {
+        "stage": "s27"
+      },
+      {
+        "stage": "s28"
+      }
+    ],
+    "a22": [
+      {
+        "stage": "s46"
+      }
+    ],
+    "a23": [
+      {
+        "stage": "s33",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 7
+          }
+        ]
+      },
+      {
+        "stage": "s29",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 4
+          }
+        ]
+      },
+      {
+        "stage": "s30",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 3
+          }
+        ]
+      },
+      {
+        "stage": "s30"
+      }
+    ],
+    "a24": [
+      {
+        "stage": "s36"
+      }
+    ],
+    "a25": [
+      {
+        "stage": "s41"
+      }
+    ],
+    "a26": [
+      {
+        "stage": "s45"
+      }
+    ],
+    "a27": [
+      {
+        "stage": "s47"
+      }
+    ],
+    "a28": [
+      {
+        "stage": "s48"
+      }
+    ],
+    "a29": [
+      {
+        "stage": "s28"
+      }
+    ],
+    "a30": [
+      {
+        "stage": "s32",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 4
+          }
+        ]
+      },
+      {
+        "stage": "s31"
+      }
+    ],
+    "a31": [
+      {
+        "stage": "s32",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 4
+          }
+        ]
+      },
+      {
+        "stage": "s31"
+      }
+    ],
+    "a32": [
+      {
+        "stage": "s32",
+        "conditions": [
+          {
+            "comparator": 4,
+            "item": 0,
+            "number": 4
+          }
+        ]
+      },
+      {
+        "stage": "s31"
+      }
+    ]
+  }
+}
