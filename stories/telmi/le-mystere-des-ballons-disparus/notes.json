@@ -1,131 +1,92 @@
 {
-  "schema_version": "1.0",
-  "notes": {
-    "s0": {
-      "title": "Les ballons envolés",
-      "text": "Lucas arrive dans la cour de l'école et voit que tous les ballons de la fête ont disparu. Il promet à ses amis de découvrir ce qui s'est passé.",
-      "color": "#FFE8A6",
-      "image": null,
-      "audio": null
-    },
-    "s1": {
-      "title": "Avec la maîtresse Julie",
-      "text": "Julie explique qu'elle a gonflé les ballons tôt ce matin. Elle demande à Lucas de regarder partout et de noter chaque indice.",
-      "color": "#FFD2A6",
-      "image": null,
-      "audio": null
-    },
-    "s2": {
-      "title": "Les copains inquiets",
-      "text": "Les élèves parlent tous en même temps. Noé a vu quelque chose briller, et Lila a entendu des battements d'ailes près du préau.",
-      "color": "#FFC8DD",
-      "image": null,
-      "audio": null
-    },
-    "s3": {
-      "title": "Le gardien Paul",
-      "text": "Paul raconte qu'il a fermé l'école la veille. Il a entendu un léger tintement dans l'abri du matériel très tôt ce matin.",
-      "color": "#C5E1FF",
-      "image": null,
-      "audio": null
-    },
-    "s4": {
-      "title": "L'armoire de la classe",
-      "text": "Dans l'armoire, Lucas trouve un ruban arc-en-ciel qui ne vient pas de l'école. Il le glisse dans son sac à indices.",
-      "color": "#FEE4B9",
-      "image": null,
-      "audio": null
-    },
-    "s5": {
-      "title": "Souvenirs de Julie",
-      "text": "Julie se rappelle avoir laissé la fenêtre ouverte pour aérer la classe. Elle encourage Lucas à regarder dehors avec attention.",
-      "color": "#F6D1B1",
-      "image": null,
-      "audio": null
-    },
-    "s6": {
-      "title": "Le préau coloré",
-      "text": "Sous le préau, Noé montre de petites taches scintillantes. Elles semblent former un chemin qui mène vers le grand chêne.",
-      "color": "#D1F4FF",
-      "image": null,
-      "audio": null
-    },
-    "s7": {
-      "title": "La chanson de Lila",
-      "text": "Lila fredonne la chanson de la fête. Elle dit avoir vu un éclair argenté voler vers les arbres en tenant quelque chose.",
-      "color": "#E3D7FF",
-      "image": null,
-      "audio": null
-    },
-    "s8": {
-      "title": "L'abri du matériel",
-      "text": "Dans l'abri, Lucas trouve des paillettes collées au sol. L'indice brille comme si quelque chose avait frotté contre les ballons.",
-      "color": "#DCF8C6",
-      "image": null,
-      "audio": null
-    },
-    "s9": {
-      "title": "Carnet d'enquête",
-      "text": "Lucas étale tous ses indices dans son carnet. Il se demande qui a pu aimer les ballons au point de les emporter.",
-      "color": "#FFF3B0",
-      "image": null,
-      "audio": null
-    },
-    "s10": {
-      "title": "Regarder le ciel",
-      "text": "En levant les yeux, Lucas voit des reflets argentés au sommet de l'école. Quelque chose brille entre les branches.",
-      "color": "#D0E8FF",
-      "image": null,
-      "audio": null
-    },
-    "s11": {
-      "title": "Le grand chêne",
-      "text": "Au pied du chêne, Lucas trouve une plume argentée toute douce. Il la met dans son sac en pensant à un oiseau malicieux.",
-      "color": "#E8F5E9",
-      "image": null,
-      "audio": null
-    },
-    "s12": {
-      "title": "Sur le toit",
-      "text": "Paul ouvre le toit pour Lucas. Ils découvrent un nid décoré de rubans et de bouts de ballons qui pendent dans le vent.",
-      "color": "#FFE0E0",
-      "image": null,
-      "audio": null
-    },
-    "s13": {
-      "title": "Tous les indices alignés",
-      "text": "Lucas compare le ruban, la trace scintillante et la plume. Il comprend que chaque indice parle d'un oiseau coquin.",
-      "color": "#FFECB3",
-      "image": null,
-      "audio": null
-    },
-    "s14": {
-      "title": "Encore du travail",
-      "text": "Lucas n'a pas assez d'indices. Il décide de repartir chercher d'autres pistes avant que la fête ne commence.",
-      "color": "#FBE7C6",
-      "image": null,
-      "audio": null
-    },
-    "s15": {
-      "title": "Presque la réponse",
-      "text": "Lucas sent qu'il est proche de la vérité. Il lui manque juste un petit détail pour convaincre tout le monde.",
-      "color": "#E0F7FA",
-      "image": null,
-      "audio": null
-    },
-    "s16": {
-      "title": "La pie surprise",
-      "text": "Au-dessus du nid, Lucas voit une pie fière de sa décoration brillante. Elle rend les ballons quand Lucas lui propose des rubans à partager.",
-      "color": "#FFE082",
-      "image": null,
-      "audio": null
-    },
-    "s17": {
-      "title": "La fête peut commencer",
-      "text": "Les ballons reviennent dans la cour. Les enfants remercient Lucas et promettent d'observer la pie avec douceur.",
-      "color": "#FFF9C4",
-      "image": null,
-      "audio": null
-    }
+  "s0": {
+    "title": "Les ballons envolés",
+    "notes": "Lucas arrive dans la cour de l'école et voit que tous les ballons de la fête ont disparu. Il promet à ses amis de découvrir ce qui s'est passé.",
+    "color": "yellow"
+  },
+  "s1": {
+    "title": "Avec la maîtresse Julie",
+    "notes": "Julie explique qu'elle a gonflé les ballons tôt ce matin. Elle demande à Lucas de regarder partout et de noter chaque indice.",
+    "color": "orange3"
+  },
+  "s2": {
+    "title": "Les copains inquiets",
+    "notes": "Les élèves parlent tous en même temps. Noé a vu quelque chose briller, et Lila a entendu des battements d'ailes près du préau.",
+    "color": "pink2"
+  },
+  "s3": {
+    "title": "Le gardien Paul",
+    "notes": "Paul raconte qu'il a fermé l'école la veille. Il a entendu un léger tintement dans l'abri du matériel très tôt ce matin.",
+    "color": "blue2"
+  },
+  "s4": {
+    "title": "L'armoire de la classe",
+    "notes": "Dans l'armoire, Lucas trouve un ruban arc-en-ciel qui ne vient pas de l'école. Il le glisse dans son sac à indices.",
+    "color": "orange3"
+  },
+  "s5": {
+    "title": "Souvenirs de Julie",
+    "notes": "Julie se rappelle avoir laissé la fenêtre ouverte pour aérer la classe. Elle encourage Lucas à regarder dehors avec attention.",
+    "color": "orange2"
+  },
+  "s6": {
+    "title": "Le préau coloré",
+    "notes": "Sous le préau, Noé montre de petites taches scintillantes. Elles semblent former un chemin qui mène vers le grand chêne.",
+    "color": "blue3"
+  },
+  "s7": {
+    "title": "La chanson de Lila",
+    "notes": "Lila fredonne la chanson de la fête. Elle dit avoir vu un éclair argenté voler vers les arbres en tenant quelque chose.",
+    "color": "purple3"
+  },
+  "s8": {
+    "title": "L'abri du matériel",
+    "notes": "Dans l'abri, Lucas trouve des paillettes collées au sol. L'indice brille comme si quelque chose avait frotté contre les ballons.",
+    "color": "green2"
+  },
+  "s9": {
+    "title": "Carnet d'enquête",
+    "notes": "Lucas étale tous ses indices dans son carnet. Il se demande qui a pu aimer les ballons au point de les emporter.",
+    "color": "yellow"
+  },
+  "s10": {
+    "title": "Regarder le ciel",
+    "notes": "En levant les yeux, Lucas voit des reflets argentés au sommet de l'école. Quelque chose brille entre les branches.",
+    "color": "blue"
+  },
+  "s11": {
+    "title": "Le grand chêne",
+    "notes": "Au pied du chêne, Lucas trouve une plume argentée toute douce. Il la met dans son sac en pensant à un oiseau malicieux.",
+    "color": "green"
+  },
+  "s12": {
+    "title": "Sur le toit",
+    "notes": "Paul ouvre le toit pour Lucas. Ils découvrent un nid décoré de rubans et de bouts de ballons qui pendent dans le vent.",
+    "color": "red2"
+  },
+  "s13": {
+    "title": "Tous les indices alignés",
+    "notes": "Lucas compare le ruban, la trace scintillante et la plume. Il comprend que chaque indice parle d'un oiseau coquin.",
+    "color": "yellow"
+  },
+  "s14": {
+    "title": "Encore du travail",
+    "notes": "Lucas n'a pas assez d'indices. Il décide de repartir chercher d'autres pistes avant que la fête ne commence.",
+    "color": "orange3"
+  },
+  "s15": {
+    "title": "Presque la réponse",
+    "notes": "Lucas sent qu'il est proche de la vérité. Il lui manque juste un petit détail pour convaincre tout le monde.",
+    "color": "blue3"
+  },
+  "s16": {
+    "title": "La pie surprise",
+    "notes": "Au-dessus du nid, Lucas voit une pie fière de sa décoration brillante. Elle rend les ballons quand Lucas lui propose des rubans à partager.",
+    "color": "orange2"
+  },
+  "s17": {
+    "title": "La fête peut commencer",
+    "notes": "Les ballons reviennent dans la cour. Les enfants remercient Lucas et promettent d'observer la pie avec douceur.",
+    "color": "yellow"
   }
 }
