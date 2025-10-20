@@ -5,126 +5,126 @@
   },
   "s1_main": {
     "title": "Phase 1 — Le mystère commence",
-    "notes": "Ce matin, la cloche vient de sonner. La lumière glisse sur les couloirs, la cour sent la terre humide, et la classe chuchote: la fête de l’école approche. En entrant, Madame Rose fronce les sourcils: le grand carton bleu des décorations a disparu.\n\n— Madame Rose: « Le carton bleu n’est plus là… Qui l’a déplacé ? »\n\nTu plisses les yeux. Affaire à élucider. Tu observes: près du porte‑manteau, un minuscule point de peinture bleue brille. Dans le couloir, la porte du local de sport est fermée à clé. Sur une table, un marque‑page dépasse d’un livre, posé à la hâte. Tout est calme, rien ne fait peur. Tu respires et tu décides où chercher d’abord.\n\nTrois pistes s’offrent à toi: la cour avec ses bancs et ses feuilles rousses, la loge du concierge qui connaît chaque recoin, ou la bibliothèque, douce comme un nid de livres. Où vas‑tu d’abord ?"
+    "notes": "Ce matin, la cloche vient de sonner. La lumière glisse sur les couloirs, la cour sent la terre humide, et la classe chuchote: la fête de l’école approche. En entrant, Madame Rose fronce les sourcils: le grand carton bleu des décorations a disparu.\n\n— Madame Rose: « Le carton bleu n’est plus là… Qui l’a déplacé ? »\n\nTu plisses les yeux. Affaire à élucider. Tu observes: près du porte‑manteau, un minuscule point de peinture bleue brille. Dans le couloir, la porte du local de sport est fermée à clé. Sur une table, un marque‑page dépasse d’un livre, posé à la hâte. L’horloge tictaque, le radiateur souffle doucement, la salle sent la colle et les crayons. Tu sors ton carnet, tu griffonnes une page titre: « Dossier Bleu ».\n\n— Sam (à voix basse): « Tu vois le point près des manteaux ? »\n— Mina: « Et ce marque‑page, il n’était pas là hier. »\n\nTu hoche la tête. Tu poses trois hypothèses: un déplacement pour aider, un rangement trop vite, ou un oubli. Tu regardes encore: des paillettes sur le sol, une trace de chaussure qui scintille. Tu avances jusqu’à la porte vitrée: dehors, la cour s’étire, dedans, le couloir file vers la loge du concierge, et à gauche, la bibliothèque t’appelle.\n\nTrois pistes s’offrent à toi: la cour avec ses bancs et ses feuilles rousses, la loge du concierge qui connaît chaque recoin, ou la bibliothèque, douce comme un nid de livres. Où vas‑tu d’abord ?"
   },
   "s1_c1": {
     "title": "Regarder dans la cour ?",
-    "notes": "Tu traverses le couloir et tu pousses doucement la porte vers la cour. Tu commences par la cour ?"
+    "notes": "Tu explores la cour ?"
   },
   "s1_c2": {
     "title": "Demander au concierge ?",
-    "notes": "Tu toques à la loge du concierge avec un sourire rapide. Tu veux lui poser des questions ?"
+    "notes": "Tu interroges le concierge ?"
   },
   "s1_c3": {
     "title": "Vérifier la bibliothèque ?",
-    "notes": "Tu marches sur la pointe des pieds et tu chuchotes parmi les livres. Tu vérifies là‑bas ?"
+    "notes": "Tu vérifies la bibliothèque ?"
   },
   "s1_c1_good": {
     "title": "Dans la cour — Un petit indice",
-    "notes": "Tu sors dans la cour où les feuilles craquent doucement. Près d’un banc de bois, tu repères une fine tache de peinture bleue, sèche, comme un souvenir de pinceau. Tu t’accroupis, tu observes sans toucher. Au sol, de légères marques montrent qu’un carton un peu lourd a été posé puis déplacé.\n\nTu ouvres ton carnet. Tu dessines un petit rond bleu et tu écris: tache près du banc. Un détail, mais les détails racontent l’histoire. Tu retournes vers la classe avec un indice de plus."
+    "notes": "Tu sors dans la cour où les feuilles craquent doucement. Un moineau saute sur le bord d’un banc, puis s’envole. Près du bois, tu repères une fine tache de peinture bleue, sèche, comme un souvenir de pinceau. Tu t’accroupis, tu observes sans toucher. Au sol, de légères marques montrent qu’un carton un peu lourd a été posé puis déplacé. Tu compares la couleur du point et l’affiche des décorations: c’est le même bleu.\n\nTu ouvres ton carnet. Tu dessines un petit rond bleu, tu écris: « Tache près du banc. Carton posé ici ». Tu traces une flèche vers la porte du couloir. Tu lèves les yeux: la porte vitrée a une marque à hauteur de hanche, comme si quelque chose l’avait effleurée. Tu prends une grande inspiration. L’affaire avance."
   },
   "s1_c1_neutral": {
     "title": "Dans la cour — Rien d’évident",
-    "notes": "Tu vas dans la cour, tranquillement. Tu longes le mur, tu regardes sous le toboggan, tu t’arrêtes près du banc. Aujourd’hui, rien ne saute aux yeux. Ce n’est pas grave: la patience fait partie de l’enquête. Tu notes quand même: pas d’indice clair dans la cour ce matin."
+    "notes": "Tu vas dans la cour, tranquillement. Tu longes le mur, tu regardes sous le toboggan, tu t’arrêtes près du banc. Le vent soulève un coin de feuille, un ballon roule puis s’immobilise. Aujourd’hui, rien ne saute aux yeux. Tu gribouilles dans ton carnet: « Cour — pas d’indice visible ». Tu écoutes le silence, tu regardes encore une fois les dalles: la piste se cache peut‑être ailleurs."
   },
   "s1_c2_key": {
     "title": "Chez le concierge — Une clé précieuse",
-    "notes": "Tu frappes doucement à la porte de la loge. Monsieur Idriss te sourit. Tu expliques, en quelques mots, que le carton bleu a disparu et que tu mènes une petite enquête pour la classe. Il t’écoute, puis pose sur le comptoir un petit porte‑clé: il a retrouvé une clé près du bureau tôt ce matin. Elle ressemble à celle du local de sport.\n\n— Monsieur Idriss: « Tu peux vérifier et me la rapporter après. »\n\nTu glisses la clé dans ta poche et tu écris dans ton carnet: clé du local obtenue. Tu es prêt·e pour la suite."
+    "notes": "Tu frappes doucement à la porte de la loge. Monsieur Idriss te sourit. Tu expliques, en quelques mots, que le carton bleu a disparu et que tu mènes une petite enquête pour la classe. Il t’écoute, puis pose sur le comptoir un petit porte‑clé: il a retrouvé une clé près du bureau tôt ce matin. Elle ressemble à celle du local de sport. La clé porte une étiquette: « Local ». Un ruban bleu y est noué.\n\n— Monsieur Idriss: « Tu peux vérifier et me la rapporter après. »\n— Monsieur Idriss: « Regarde, un petit coup de peinture ici… ça doit venir des décorations. »\n\nTu glisses la clé dans ta poche et tu écris dans ton carnet: « Clé du local obtenue ». Tu notes l’heure, tu entoures le mot « local ». Tu es prêt·e pour la suite."
   },
   "s1_c2_neutral": {
     "title": "Chez le concierge — Une discussion utile",
-    "notes": "Tu toques et tu racontes calmement. Monsieur Idriss n’a pas trouvé d’objet ce matin, mais il se souvient d’une légère odeur de peinture près du couloir des arts plastiques.\n\n— Monsieur Idriss: « Ça sentait un peu le bleu par là‑bas. »\n\nTu notes l’information et tu repars avec une piste à vérifier."
+    "notes": "Tu toques et tu racontes calmement. Monsieur Idriss n’a pas trouvé d’objet ce matin, mais il se souvient d’une légère odeur de peinture près du couloir des arts plastiques. La porte du couloir grince un peu, comme si elle avait été ouverte et refermée vite.\n\n— Monsieur Idriss: « Ça sentait un peu le bleu par là‑bas. »\n\nTu notes l’information: « Odeur de peinture — arts plastiques ». Tu soulignes deux fois et tu repars avec une piste à vérifier."
   },
   "s1_c3_good": {
     "title": "À la bibliothèque — Une piste discrète",
-    "notes": "La bibliothèque t’accueille avec des rayons rangés comme des maisons. Tu chuchotes. Entre deux étagères, un marque‑page est tombé. Il a un petit point bleu dessus, exactement la couleur des décorations. Tu le montres à la bibliothécaire.\n\n— Madame Lila: « Bien vu, détective. Note ce détail. »\n\nTu ajoutes ce fil dans ton carnet, puis tu retournes vers la classe."
+    "notes": "La bibliothèque t’accueille avec des rayons rangés comme des maisons. Tu chuchotes. Entre deux étagères, un marque‑page est tombé. Il a un petit point bleu dessus, exactement la couleur des décorations. Tu le montres à la bibliothécaire.\n\n— Madame Lila: « Bien vu, détective. Ce marque‑page vient d’un livre d’arts plastiques. »\n— Madame Lila: « Note la couleur et l’étagère: troisième rangée, coin lecture. »\n\nTu écris: « Marque‑page bleu — étagère 3 ». Tu regardes le tapis, tu remarques une petite trace bleutée sur un coin. Tu replis la chaise, tu remercies d’un signe de tête, et tu retournes vers la classe."
   },
   "s1_c3_neutral": {
     "title": "À la bibliothèque — Calme et patience",
-    "notes": "Tu marches entre les étagères et tu respires l’odeur des livres. Tu regardes, tu écoutes, tu remets un album à l’endroit. Aujourd’hui, aucun indice n’apparaît. Tu l’acceptes sereinement et tu notes: pas d’indice dans la bibliothèque."
+    "notes": "Tu marches entre les étagères et tu respires l’odeur des livres. Tu regardes, tu écoutes, tu remets un album à l’endroit. Aujourd’hui, aucun indice n’apparaît. Tu feuillettes un livre de fête, tu le reposes. Tu écris dans ton carnet: « Bibliothèque — rien pour l’instant ». Tu sors en silence."
   },
   "s2_main": {
     "title": "Phase 2 — Pistes colorées et paroles utiles",
-    "notes": "Tu fais le point. Dans ton carnet, tu relis tes traces: la tache bleue dans la cour, le marque‑page, peut‑être la clé, et l’idée du couloir des arts plastiques. Des empreintes bleutées vont et viennent, comme des vaguelettes. Elles mènent vers la salle de sport puis reviennent près des casiers. Madame Rose jette un œil au planning.\n\n— Madame Rose: « Qui a déplacé quoi, et quand ? »\n\nTrois choix te guident: suivre les traces de peinture, demander l’avis de la maîtresse, ou examiner les casiers. Quelle piste choisis‑tu ?"
+    "notes": "Tu fais le point. Tu étales tes indices: tache bleue dans la cour, marque‑page, peut‑être une clé, et l’idée du couloir des arts plastiques. Tu relis les notes, tu ajoutes des flèches, tu dessines un petit plan de l’école. Des empreintes bleutées vont et viennent, comme des vaguelettes. Elles mènent vers la salle de sport puis reviennent près des casiers. Madame Rose observe le planning des emprunts.\n\n— Madame Rose: « Qui a déplacé quoi, et quand ? »\n— Sam: « Tu suis les traces, ou tu demandes ? »\n\nTrois choix te guident: suivre les traces de peinture, demander l’avis de la maîtresse, ou examiner les casiers. Tu poses le doigt sur la carte. Quelle piste choisis‑tu ?"
   },
   "s2_c1": {
     "title": "Suivre les traces de peinture ?",
-    "notes": "Tu t’approches des petites marques bleutées et tu les suis prudemment. Tu veux suivre la piste colorée ?"
+    "notes": "Tu suis les traces ?"
   },
   "s2_c2": {
     "title": "Demander à la maîtresse ?",
-    "notes": "Tu exposes tes observations et tu poses une question claire. Tu demandes son avis à la maîtresse ?"
+    "notes": "Tu demandes à la maîtresse ?"
   },
   "s2_c3": {
     "title": "Examiner les casiers ?",
-    "notes": "Tu ouvres doucement, tu ranges ce qui dépasse, et tu observes. Tu examines les casiers ?"
+    "notes": "Tu fouilles les casiers ?"
   },
   "s2_c1_key": {
     "title": "Traces de peinture — Une clé apparaît",
-    "notes": "Les petites marques bleues serpentent jusqu’à un coin du couloir. Là, près d’une caisse, un trousseau brille au sol. Tu lèves la main pour appeler un adulte, tu expliques la situation, et l’adulte confirme: la petite clé semble bien ouvrir le local de sport.\n\nTu l’écris dans ton carnet et tu la gardes prudemment pour la rendre ensuite. Ta méthode fonctionne: observer, vérifier, déduire."
+    "notes": "Les petites marques bleues serpentent jusqu’à un coin du couloir. Là, près d’une caisse, un trousseau brille au sol. Tu t’accroupis. Une étiquette plastique indique « Local ». Une minuscule paillette bleue colle au métal. Tu lèves la main pour appeler un adulte, tu expliques la situation, et l’adulte confirme: la petite clé ouvre le local de sport.\n\nTu l’écris dans ton carnet: « Clé trouvée — couloir ». Tu la glisses dans ta poche et tu traces une flèche vers la salle de sport. Ta méthode fonctionne: observer, vérifier, déduire."
   },
   "s2_c1_neutral": {
     "title": "Traces de peinture — Piste instructive",
-    "notes": "Tu suis les traces bleutées qui s’estompent près de la porte de la cour. Peut‑être que la personne a nettoyé ses chaussures, ou qu’elle a pris un autre chemin. Tu n’as pas d’objet à rapporter, mais tu sais maintenant que la piste passe par ici. Tu le notes et tu partages l’information."
+    "notes": "Tu suis les traces bleutées qui s’estompent près de la porte de la cour. Le bleu devient pâle, presque gris. Peut‑être que la personne a nettoyé ses chaussures, ou qu’elle a pris un autre chemin. Tu écris: « Piste faible — sortie cour ». Tu fais une croix sur ton plan et tu cherches un autre fil."
   },
   "s2_c2_good": {
     "title": "Avec la maîtresse — Un indice en plus",
-    "notes": "Tu vas voir Madame Rose. Tu racontes sans te couper la parole. Elle se souvient qu’hier, juste avant la récréation, un élève a déplacé un carton de décorations bleues pour aider à préparer la fête. Cela pourrait expliquer les petites taches. Elle propose d’écrire le prénom et l’heure pour recouper.\n\nTu notes l’information dans ton carnet. L’enquête devient plus claire et tu gagnes un nouvel indice."
+    "notes": "Tu vas voir Madame Rose. Tu racontes ce que tu as vu, simplement. Elle se souvient qu’hier, juste avant la récréation, un élève a déplacé un carton de décorations bleues pour aider à préparer la fête. Cela pourrait expliquer les petites taches. Elle te montre la liste des tâches et te propose d’écrire le prénom et l’heure pour recouper.\n\nTu notes dans ton carnet: « Carton déplacé — avant récré ». L’image devient plus claire et tu gagnes un nouvel indice."
   },
   "s2_c2_better": {
     "title": "Avec la maîtresse — Confirmation précieuse",
-    "notes": "Tu parles à Madame Rose avec douceur. Elle regarde le planning et confirme deux choses: le carton bleu a bien été déplacé hier, et une clé du local de sport a été empruntée puis rendue tardivement. Elle te montre le cahier d’emprunts pour préciser l’heure.\n\nCes informations confirment ton intuition et complètent ton carnet. Tu repars confiant·e, avec l’image qui se forme."
+    "notes": "Tu parles à Madame Rose avec douceur. Elle regarde le planning et confirme deux choses: le carton bleu a bien été déplacé hier, et une clé du local de sport a été empruntée puis rendue tardivement. Elle ouvre le cahier d’emprunts et pointe une ligne: une heure est entourée au stylo.\n\nTu complètes ton carnet: « Clé empruntée — rendue tard ». Les pièces du puzzle s’assemblent."
   },
   "s2_c3_good": {
     "title": "Casiers — Un petit trésor",
-    "notes": "Tu ouvres les casiers un par un. Dans un casier du fond, un petit rouleau de ruban bleu colle contre la paroi. Il sent légèrement la peinture. Tu demandes à un adulte s’il peut servir d’indice. L’adulte te remercie de prévenir et te conseille de simplement le noter.\n\nTu écris: ruban bleu trouvé dans un casier. Ce détail complète tes observations. Tu refermes doucement et tu retournes vers la classe."
+    "notes": "Tu ouvres les casiers un par un. Dans un casier du fond, un petit rouleau de ruban bleu colle contre la paroi. Il sent légèrement la peinture. Tu demandes à un adulte s’il peut servir d’indice. L’adulte hoche la tête.\n\nTu écris: « Ruban bleu — casier fond ». Tu trouves aussi une étiquette déchirée avec une étoile dessinée au feutre. Tu la colles dans ton carnet. Tu refermes doucement et tu retournes vers la classe."
   },
   "s2_c3_neutral": {
     "title": "Casiers — Rien de spécial aujourd’hui",
-    "notes": "Tu examines les casiers calmement. Tu remets des cahiers à l’endroit, tu replies une veste, et tu vérifies le fond des étagères. Rien d’évident n’apparaît. Tu notes ce non‑résultat et tu te prépares pour la suite."
+    "notes": "Tu examines les casiers calmement. Tu remets des cahiers à l’endroit, tu replies une veste, et tu vérifies le fond des étagères. Rien d’évident n’apparaît. Tu notes: « Casiers — pas d’indice ». Tu fermes les portes, tu regardes ta carte, tu choisis la prochaine étape."
   },
   "s3_main": {
     "title": "Phase 3 — Vers la solution",
-    "notes": "Ton carnet est presque rempli: taches bleues, ruban, marque‑page, horaires, et peut‑être une clé. Tout semble raconter la même histoire: quelqu’un a déplacé des décorations pour aider à la fête et a oublié de tout rapporter. Il te reste à vérifier le bon endroit.\n\nTrois destinations possibles: le local de sport, qui garde beaucoup d’objets et s’ouvre avec une clé; la salle de musique, où la chorale répète; et la cantine, où tu croises du monde tôt le matin. Quelle dernière étape choisis‑tu ?"
+    "notes": "Ton carnet est presque rempli: taches bleues, ruban, marque‑page, horaires, et peut‑être une clé. Tout semble raconter la même histoire: quelqu’un a déplacé des décorations pour aider à la fête et a oublié de tout rapporter. Il te reste à vérifier le bon endroit. Tu respires lentement, tu traces trois cases sur ton plan.\n\n— Mina: « Tu commences par la salle de sport ? »\n— Sam: « Ou la musique ? Ou la cantine ? »\n\nTrois destinations possibles: le local de sport, qui garde beaucoup d’objets et s’ouvre avec une clé; la salle de musique, où la chorale répète; et la cantine, où tu croises du monde tôt le matin. Quelle dernière étape choisis‑tu ?"
   },
   "s3_c1": {
     "title": "Aller au local de sport ?",
-    "notes": "Tu essaies d’ouvrir le local de sport pour vérifier ce qu’il s’y trouve ?"
+    "notes": "Local de sport ?"
   },
   "s3_c2": {
     "title": "Aller en salle de musique ?",
-    "notes": "Tu vas en salle de musique pour vérifier si un indice s’y cache ?"
+    "notes": "Salle de musique ?"
   },
   "s3_c3": {
     "title": "Aller à la cantine ?",
-    "notes": "Tu vas à la cantine pour poser quelques questions rapides ?"
+    "notes": "Cantine ?"
   },
   "s3_c1_final": {
     "title": "Final — Le local s’ouvre",
-    "notes": "Avec l’autorisation d’un adulte, tu essaies la clé. Elle tourne doucement et la porte s’ouvre. Dans le local, tout est là: le matériel, les cartons bleus, et un sac posé en évidence. Un petit mot est collé dessus: « Désolé, j’ai rangé vite hier soir pour aider. J’ai oublié de prévenir. » Tu souris. C’était un oubli bienveillant. Tu ranges les objets, tu refermes la porte et tu fais le point.\n\nGrâce à ta méthode — observer, demander, vérifier, noter et déduire — tu as résolu le mystère."
+    "notes": "Avec l’autorisation d’un adulte, tu essaies la clé. Elle tourne doucement et la porte s’ouvre. L’odeur du bois ciré remplit la pièce. Dans le local, tout est là: le matériel, les cartons bleus, et un sac posé en évidence. Un petit mot est collé dessus: « Désolé, j’ai rangé vite hier soir pour aider. J’ai oublié de prévenir. » Tu lis à voix basse, tu souris. C’était un oubli bienveillant.\n\nTu ranges les objets au bon endroit, tu tires le carton bleu, tu vérifies le contenu: rubans, paillettes, guirlandes. Tu fermes la porte, tu notes la conclusion dans ton carnet: « Affaire bleue résolue — local ». Tu as mené l’enquête jusqu’au bout."
   },
   "s3_c1_locked": {
     "title": "Final — Le local est fermé",
-    "notes": "Tu arrives devant la porte du local, mais tu n’as pas la bonne clé. Ce n’est pas grave. Tu notes l’information et tu demandes l’aide d’un adulte pour vérifier plus tard. La fête se prépare et l’enquête attend la prochaine ouverture."
+    "notes": "Tu arrives devant la porte du local, mais tu n’as pas la bonne clé. La poignée reste froide, immobile. Tu écris: « Local fermé — clé manquante ». Tu colles un petit post‑it sur ta carte: « Revoir plus tard avec un adulte ». La fête se prépare, l’enquête attend la prochaine ouverture."
   },
   "s3_c2_final": {
     "title": "Final — La piste de la musique",
-    "notes": "Dans la salle de musique, une douce mélodie flotte encore. Sur une chaise, un sac bleu t’attend. Dedans, des rubans, des pinceaux, et un carnet d’horaires. Un message explique qu’hier, pendant la chorale, quelqu’un a posé le sac ici pour ne pas gêner et a oublié de le rapporter. Tu rapportes le sac à sa place et tu écris la conclusion dans ton carnet."
+    "notes": "Dans la salle de musique, une douce mélodie flotte encore. Sur une chaise, un sac bleu t’attend. Dedans, des rubans, des pinceaux, et un carnet d’horaires. Un message explique qu’hier, pendant la chorale, quelqu’un a posé le sac ici pour ne pas gêner et a oublié de le rapporter. Tu hoches la tête: cela colle avec la couleur et l’heure.\n\nTu rapportes le sac à sa place, tu barres la case « musique » sur ton plan, et tu écris la conclusion dans ton carnet: « Sac retrouvé — salle de musique »."
   },
   "s3_c2_neutral": {
     "title": "Final — La musique n’aide pas",
-    "notes": "La salle de musique est calme. Les instruments sont rangés, les chaises alignées. Aucun indice n’apparaît aujourd’hui. Tu refermes la porte et tu réfléchis à une autre piste."
+    "notes": "La salle de musique est calme. Les instruments sont rangés, les chaises alignées. Aucun indice n’apparaît aujourd’hui. Tu écoutes un instant le silence qui bourdonne, tu refermes la porte et tu réfléchis à une autre piste. Tu notes: « Musique — rien »."
   },
   "s3_c3_final": {
     "title": "Final — L’aide de la cantine",
-    "notes": "À la cantine, le personnel te montre un petit carton bleu posé sur une table tôt ce matin pour ne pas gêner la préparation du repas. Tu expliques ton enquête et tu vérifies le contenu: à l’intérieur, tu retrouves des objets manquants. Tout va bien: c’était un simple oubli. Tu les ranges au bon endroit."
+    "notes": "À la cantine, le personnel te montre un petit carton bleu posé sur une table tôt ce matin pour ne pas gêner la préparation du repas. Tu expliques ton enquête et tu vérifies le contenu: à l’intérieur, tu retrouves des objets manquants. Sur un coin, un mot griffonné: « Je rapporte tout après le service ». Tout va bien: c’était un simple oubli.\n\nTu complètes ta page: « Carton récupéré — cantine ». Tu ramènes le carton à sa place et tu refermes ton dossier."
   },
   "s3_c3_neutral": {
     "title": "Final — La cantine est occupée",
-    "notes": "La cantine travaille fort. Tu n’insistes pas et tu cherches un autre moment. Pas d’indice clair ici pour l’instant."
+    "notes": "La cantine travaille fort. Tu n’insistes pas et tu cherches un autre moment. Pas d’indice clair ici pour l’instant. Tu inscris: « Cantine — pas dispo ». Tu lèves la tête, tu souris: une autre piste t’attend."
   },
   "s_end": {
     "title": "Conclusion — Bravo et merci",
-    "notes": "Bravo ! Grâce à tes choix, tu as mené une véritable enquête. Tu as observé, questionné, vérifié et déduit. Les mystères d’école naissent souvent d’un objet posé trop vite ou d’un oubli. La prochaine fois qu’un mystère apparaîtra, tu sauras comment faire: pas à pas, avec ton regard d’enquêteur et, si besoin, l’aide d’un adulte. À la prochaine affaire !"
+    "notes": "Bravo ! Grâce à tes choix, tu as mené une véritable enquête. Tu as observé, questionné, vérifié et déduit. Tu as ouvert des portes, lu des traces, noté des heures, et relié des indices. Les mystères d’école naissent souvent d’un objet posé trop vite ou d’un oubli. La prochaine fois qu’un mystère apparaîtra, tu sauras comment faire: pas à pas, avec ton regard d’enquêteur et, si besoin, l’aide d’un adulte. À la prochaine affaire !"
   }
 }
