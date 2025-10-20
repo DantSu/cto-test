@@ -259,16 +259,13 @@
       { "stage": "s1_c3" }
     ],
     "a1_c1_cons": [
-      { "stage": "s1_c1_good", "conditions": [ { "comparator": 4, "item": 0, "number": 1 } ] },
-      { "stage": "s1_c1_neutral" }
+      { "stage": "s1_c1_good" }
     ],
     "a1_c2_cons": [
-      { "stage": "s1_c2_key", "conditions": [ { "comparator": 4, "item": 0, "number": 1 } ] },
-      { "stage": "s1_c2_neutral" }
+      { "stage": "s1_c2_key" }
     ],
     "a1_c3_cons": [
-      { "stage": "s1_c3_good" },
-      { "stage": "s1_c3_neutral", "conditions": [ { "comparator": 0, "item": 0, "number": 1 } ] }
+      { "stage": "s1_c3_good" }
     ],
 
     "a2_main": [ { "stage": "s2_main" } ],
@@ -278,16 +275,15 @@
       { "stage": "s2_c3" }
     ],
     "a2_c1_cons": [
-      { "stage": "s2_c1_key", "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] },
+      { "stage": "s2_c1_key", "conditions": [ { "comparator": 2, "item": 1, "number": 0 } ] },
       { "stage": "s2_c1_neutral" }
     ],
     "a2_c2_cons": [
-      { "stage": "s2_c2_good",   "conditions": [ { "comparator": 0, "item": 0, "number": 2 } ] },
-      { "stage": "s2_c2_better", "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] }
+      { "stage": "s2_c2_better", "conditions": [ { "comparator": 4, "item": 0, "number": 1 } ] },
+      { "stage": "s2_c2_good" }
     ],
     "a2_c3_cons": [
-      { "stage": "s2_c3_good" },
-      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 0, "item": 0, "number": 2 } ] }
+      { "stage": "s2_c3_good" }
     ],
 
     "a3_main": [ { "stage": "s3_main" } ],
@@ -301,11 +297,11 @@
       { "stage": "s3_c1_locked" }
     ],
     "a3_c2_cons": [
-      { "stage": "s3_c2_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 3 } ] },
+      { "stage": "s3_c2_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] },
       { "stage": "s3_c2_neutral" }
     ],
     "a3_c3_cons": [
-      { "stage": "s3_c3_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 3 } ] },
+      { "stage": "s3_c3_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] },
       { "stage": "s3_c3_neutral" }
     ],
 
