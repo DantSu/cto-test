@@ -1,0 +1,319 @@
+{
+  "startAction": { "action": "a0", "index": 0 },
+  "backStage": "s_back",
+  "inventory": [
+    { "name": "Indices", "initialNumber": 0, "maxNumber": 10, "display": 2, "image": "i0.png" },
+    { "name": "Clé du local", "initialNumber": 0, "maxNumber": 1, "display": 2, "image": "i1.png" }
+  ],
+  "stages": {
+    "s_back": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a0", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+
+    "s1_main": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a1_choices", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s1_c1": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a1_c1_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s1_c2": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a1_c2_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s1_c3": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a1_c3_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+
+    "s1_c1_good": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 0, "item": 0, "number": 1 } ],
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s1_c1_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s1_c2_key": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 2, "item": 1, "number": 1 } ],
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s1_c2_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s1_c3_good": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 0, "item": 0, "number": 1 } ],
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s1_c3_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s2_main": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_choices", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s2_c1": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_c1_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s2_c2": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_c2_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s2_c3": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a2_c3_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+
+    "s2_c1_key": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 2, "item": 1, "number": 1 } ],
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s2_c1_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s2_c2_good": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 0, "item": 0, "number": 1 } ],
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s2_c2_better": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 0, "item": 0, "number": 1 } ],
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s2_c3_good": {
+      "image": null,
+      "audio": null,
+      "items": [ { "type": 0, "item": 0, "number": 1 } ],
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s2_c3_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_main", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s3_main": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_choices", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s3_c1": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_c1_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s3_c2": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_c2_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+    "s3_c3": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a3_c3_cons", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": false }
+    },
+
+    "s3_c1_final": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s3_c1_locked": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s3_c2_final": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s3_c2_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s3_c3_final": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+    "s3_c3_neutral": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "a_end", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    },
+
+    "s_end": {
+      "image": null,
+      "audio": null,
+      "ok": { "action": "backChildAction", "index": 0 },
+      "home": { "action": "backAction", "index": 0 },
+      "control": { "ok": true, "home": true, "autoplay": true }
+    }
+  },
+  "actions": {
+    "a0": [ { "stage": "s1_main" } ],
+
+    "a1_choices": [
+      { "stage": "s1_c1" },
+      { "stage": "s1_c2" },
+      { "stage": "s1_c3" }
+    ],
+    "a1_c1_cons": [
+      { "stage": "s1_c1_good", "conditions": [ { "comparator": 4, "item": 0, "number": 1 } ] },
+      { "stage": "s1_c1_neutral" }
+    ],
+    "a1_c2_cons": [
+      { "stage": "s1_c2_key", "conditions": [ { "comparator": 4, "item": 0, "number": 1 } ] },
+      { "stage": "s1_c2_neutral" }
+    ],
+    "a1_c3_cons": [
+      { "stage": "s1_c3_good" },
+      { "stage": "s1_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 0 } ] }
+    ],
+
+    "a2_main": [ { "stage": "s2_main" } ],
+    "a2_choices": [
+      { "stage": "s2_c1" },
+      { "stage": "s2_c2" },
+      { "stage": "s2_c3" }
+    ],
+    "a2_c1_cons": [
+      { "stage": "s2_c1_key", "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] },
+      { "stage": "s2_c1_neutral" }
+    ],
+    "a2_c2_cons": [
+      { "stage": "s2_c2_good",   "conditions": [ { "comparator": 4, "item": 0, "number": 0 } ] },
+      { "stage": "s2_c2_better", "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] }
+    ],
+    "a2_c3_cons": [
+      { "stage": "s2_c3_good" },
+      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 0 } ] },
+      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 1 } ] }
+    ],
+
+    "a3_main": [ { "stage": "s3_main" } ],
+    "a3_choices": [
+      { "stage": "s3_c1" },
+      { "stage": "s3_c2" },
+      { "stage": "s3_c3" }
+    ],
+    "a3_c1_cons": [
+      { "stage": "s3_c1_final",  "conditions": [ { "comparator": 2, "item": 1, "number": 1 } ] },
+      { "stage": "s3_c1_locked" }
+    ],
+    "a3_c2_cons": [
+      { "stage": "s3_c2_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 3 } ] },
+      { "stage": "s3_c2_neutral" }
+    ],
+    "a3_c3_cons": [
+      { "stage": "s3_c3_final",  "conditions": [ { "comparator": 4, "item": 0, "number": 3 } ] },
+      { "stage": "s3_c3_neutral" }
+    ],
+
+    "a_end": [ { "stage": "s_end" } ],
+
+    "backAction": [ { "stage": "s_back" } ],
+    "backChildAction": [ { "stage": "s_back" } ]
+  }
+}

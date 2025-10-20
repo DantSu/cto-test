@@ -1,0 +1,130 @@
+{
+  "s_back": {
+    "title": "Accueil — Revenir au début",
+    "notes": "Bienvenue dans l’histoire interactive Le Mystère de l’École. Ici, tu peux revenir au début quand tu veux. Appuie sur OK pour relancer l’enquête et choisir à nouveau. Nous avançons calmement, ensemble, et nous apprenons à observer, à demander de l’aide et à coopérer. Prêt·e à recommencer ?"
+  },
+  "s1_main": {
+    "title": "Phase 1 — Le mystère commence",
+    "notes": "Ce matin, l’école s’éveille doucement. Les manteaux s’accrochent aux porte-manteaux, les sacs se rangent près des tables, et les voix chuchotent encore un peu. Mais, dans notre classe, une surprise nous attend: quelque chose a disparu. La maîtresse nous explique que du matériel très important pour la fête de l’école manque. On ne sait pas si c’est un oubli, une farce, ou un vrai mystère. On se regarde, on inspire, et on décide d’enquêter. On n’accuse personne. On commence par observer. On ouvre bien nos yeux, on écoute nos oreilles, et on prend le temps de respirer. Chacun peut proposer une idée. Tu fais partie de l’équipe. Ensemble, on note ce que l’on voit et on garde nos idées dans un carnet simple.\n\nDans le couloir, on remarque de petites traces de peinture au sol, comme des pas colorés qui ont roulé un peu. Dans la cour, des feuilles sèches sont rassemblées près du banc. Près du bureau de la directrice, la porte du local de sport est bien fermée, mais la clé n’est pas là. Rien de tout cela ne fait peur. C’est juste un jeu de pistes, un peu comme un trésor à retrouver. Tu peux proposer d’aller dehors, de demander au concierge, ou de vérifier un autre endroit calme, comme la bibliothèque. On ne court pas. On marche tranquillement. On reste poli et curieux. Si on ne trouve rien tout de suite, ce n’est pas grave. On progresse petit à petit. On cherche des indices simples: un papier, une odeur, une trace, un bruit.\n\nNotre maîtresse nous rappelle que dans une enquête, on fait des choix. Chaque choix aide à comprendre, même s’il ne donne pas directement la réponse. Parfois on découvre un indice, parfois on apprend ce qui ne s’est pas passé. Les deux sont utiles. On dit merci aux personnes qui nous aident. On range derrière nous. Et on garde le sourire. Maintenant, c’est à nous de décider par où commencer. Où allons‑nous d’abord ?"
+  },
+  "s1_c1": {
+    "title": "Regarder dans la cour ?",
+    "notes": "On va dans la cour et on explore calmement. Est‑ce que tu veux commencer par la cour ?"
+  },
+  "s1_c2": {
+    "title": "Demander au concierge ?",
+    "notes": "On va voir le concierge avec un bonjour et un sourire. Est‑ce que tu veux lui poser des questions ?"
+  },
+  "s1_c3": {
+    "title": "Vérifier la bibliothèque ?",
+    "notes": "On marche doucement vers la bibliothèque et on chuchote. Est‑ce que tu veux vérifier là‑bas ?"
+  },
+  "s1_c1_good": {
+    "title": "Dans la cour — Un petit indice",
+    "notes": "Nous sortons dans la cour, là où le vent fait bouger les feuilles. On marche près du banc, on regarde par terre, et on s’accroupit doucement. Toi, tu remarques une petite tache de peinture sèche, juste derrière une pierre plate. Elle est bleue et très fine, comme une trace passée. On se dit que quelqu’un a peut‑être déplacé un objet peint pendant que la peinture n’était pas encore totalement sèche. On ne touche pas tout de suite. On observe d’abord. On regarde autour: des feuilles, des pas légers, et des rayons de soleil qui réchauffent le sol.\n\nOn sort notre carnet. On dessine un petit cercle pour marquer la tache. On écrit une phrase simple: une tache bleue près du banc. On ne sait pas encore à quoi cela sert, mais ce détail peut nous aider plus tard. On se félicite d’avoir pris le temps de regarder. Chaque petit indice compte. On sourit, on remet la pierre à sa place, et on ramasse les feuilles tombées pour laisser la cour propre. Ce geste soigneux nous rappelle que l’enquête est aussi une façon d’aider notre école.\n\nPeut‑être que la tache vient d’un pinceau oublié. Peut‑être qu’un enfant a fait tomber un petit pot. On ne sait pas. Mais on progresse. On respire et on continue. Notre équipe ajoute cet indice à l’inventaire, comme un petit trésor de plus. Ensemble, on décide de retourner à l’intérieur pour la suite de l’aventure, le cœur léger et content d’avoir avancé."
+  },
+  "s1_c1_neutral": {
+    "title": "Dans la cour — Rien d’évident",
+    "notes": "Nous allons dans la cour, tranquillement. On marche le long du mur, on passe près du toboggan, et on s’arrête près du banc. On regarde. On écoute. Il n’y a rien d’évident. Parfois, un endroit ne raconte pas encore son histoire. Ce n’est pas grave. Ce moment nous apprend à patienter et à rester calmes. On cherche des détails: un papier, une trace de pas, un objet oublié. Rien ne saute aux yeux. On sourit, on souffle, et on se dit qu’une autre piste nous parlera peut‑être davantage.\n\nOn note quand même ce que l’on n’a pas trouvé. On écrit: pas d’indice clair dans la cour ce matin. Cela aussi est utile, car on n’a pas besoin d’y revenir tout de suite. On remercie la cour pour le calme et l’air frais, on ramasse un petit papier, et on le met dans la poubelle. Ce geste simple montre que l’on prend soin du lieu. On repart confiants. L’enquête continue. Une autre idée nous attend, et avec elle, peut‑être un nouvel indice."
+  },
+  "s1_c2_key": {
+    "title": "Chez le concierge — Une clé précieuse",
+    "notes": "On frappe doucement à la loge du concierge. Il lève les yeux, sourit, et nous demande si tout va bien. On explique que nous menons une petite enquête pour la classe, et qu’on a remarqué des choses bizarres. Il écoute avec attention. Il se souvient d’avoir vu la porte du local de sport fermée très tôt le matin. Il nous félicite pour notre observation et, parce que nous sommes respectueux et organisés, il accepte de nous montrer un porte‑clé. Il dit qu’il a retrouvé près du bureau une clé qui pourrait ouvrir le local. Il ne sait pas qui l’a posée là.\n\nNous remercions le concierge pour sa confiance. On prend la clé, mais on s’engage à la rendre après. On note dans notre carnet: clé du local obtenue avec l’aide du concierge. On se dit que cette clé peut nous aider plus tard. On n’ouvre rien sans autorisation. On garde la clé dans notre inventaire, au chaud, et on continue l’enquête. C’est une belle avancée: demander gentiment, écouter, expliquer, et coopérer, cela fonctionne.\n\nOn souhaite une bonne journée au concierge, on referme la porte doucement, et on se tourne vers la prochaine étape. On a maintenant une nouvelle direction à suivre et un outil important à respecter."
+  },
+  "s1_c2_neutral": {
+    "title": "Chez le concierge — Une discussion utile",
+    "notes": "On frappe à la porte du concierge. On dit bonjour, et on explique calmement notre enquête. Il nous écoute, pose quelques questions, et nous raconte qu’il a fait son tour habituel ce matin. Rien ne lui a semblé étrange, à part un léger parfum de peinture près du couloir des arts plastiques. Il n’a pas trouvé de clé ni d’objet particulier.\n\nNous le remercions pour le temps qu’il nous a consacré. Même si nous ne repartons pas avec un objet, nous repartons avec une information: la zone des arts plastiques mérite peut‑être un futur regard. On note l’idée dans le carnet. On se souvient que demander reste important, même quand la réponse est non. C’est comme ça que l’on construit une enquête douce et efficace: un petit pas après l’autre, sans se décourager.\n\nOn souhaite une bonne journée au concierge et on reprend la route vers la prochaine piste."
+  },
+  "s1_c3_good": {
+    "title": "À la bibliothèque — Une piste discrète",
+    "notes": "On entre sur la pointe des pieds. La bibliothèque est calme, comme un grand doudou de livres. On chuchote. En passant entre deux étagères, tu remarques un marque‑page tombé au sol. Il porte un petit point bleu, exactement comme la tache aperçue ailleurs. Peut‑être que quelqu’un a transporté un objet peint en bleu, puis s’est arrêté ici. On ne touche pas tout de suite. On regarde autour: un chariot, des livres alignés, et une table où quelqu’un a laissé un carnet.\n\nOn ramasse le marque‑page avec soin et on le montre à la bibliothécaire. Elle sourit et nous remercie d’aider à garder la salle en ordre. Elle ne sait pas à qui il appartient, mais elle nous conseille d’écrire ce détail dans notre carnet. C’est ce qu’on fait. On ajoute aussi un petit dessin pour s’en souvenir. Ce n’est peut‑être qu’un hasard, mais c’est quand même un indice. On range le marque‑page dans une boîte prévue pour les objets trouvés, et on remet une chaise à sa place. C’est agréable d’aider.\n\nNous repartons avec un sentiment de calme et d’attention. L’enquête avance grâce à nos gestes doux et à notre écoute. Chaque chose observée nous rapproche un peu plus de la solution."
+  },
+  "s1_c3_neutral": {
+    "title": "À la bibliothèque — Calme et patience",
+    "notes": "La bibliothèque nous accueille avec son odeur de papier et de bois. On chuchote pour ne pas déranger. On fait le tour: les albums d’un côté, les documentaires de l’autre, et les tapis pour s’asseoir. On cherche doucement, mais on ne voit pas d’indice clair. Parfois, un lieu ne veut pas encore parler. Ce n’est pas grave. On s’assoit quelques secondes, on ferme les yeux, et on respire. La patience est une amie des enquêteurs.\n\nAvant de repartir, on aide à remettre un livre à l’endroit et on sourit à la bibliothécaire. On note dans le carnet: pas d’indice évident à la bibliothèque. Cela nous servira plus tard, car on saura où l’on a déjà cherché. On se lève, on dit merci, et on se remet en route. Une autre piste nous attend, et nous sommes prêts à la suivre."
+  },
+  "s2_main": {
+    "title": "Phase 2 — Pistes colorées et paroles utiles",
+    "notes": "Nous voilà au milieu de notre enquête. On a déjà appris des choses, et on garde nos idées bien rangées. On décide de faire un nouveau point tous ensemble. On lit le carnet, on se rappelle la tache bleue, le marque‑page, la porte du local, et notre échange avec le concierge. Tout cela ne forme pas encore une image complète, mais on sent qu’on se rapproche. On se répartit les rôles simplement: celles et ceux qui aiment observer peuvent chercher des traces au sol. Celles et ceux qui aiment parler peuvent poser des questions gentiment. Et celles et ceux qui aiment ranger peuvent vérifier les casiers.\n\nSur le sol du couloir, on distingue de petites traces de peinture, un peu plus visibles que tout à l’heure. Elles vont vers la cour puis reviennent près des casiers. Dans la classe, la maîtresse nous écoute. Elle nous encourage à expliquer ce que l’on a trouvé sans se couper la parole. Elle propose aussi d’observer le planning de la journée d’hier. Parfois, l’heure et le lieu d’un déplacement suffisent pour comprendre. On note ces idées, car elles peuvent nous aider à choisir le bon chemin.\n\nTrois choix s’offrent à nous: suivre les traces de peinture pour voir où elles mènent, demander à la maîtresse si elle a remarqué quelque chose d’important, ou examiner les casiers pour repérer un objet mal rangé. Quel que soit notre choix, on continue à apprendre. On garde nos pas lents, nos mots doux, et notre esprit curieux. L’enquête avance, et nous avançons avec elle."
+  },
+  "s2_c1": {
+    "title": "Suivre les traces de peinture ?",
+    "notes": "On regarde les petites traces et on les suit prudemment. Veux‑tu suivre les traces colorées ?"
+  },
+  "s2_c2": {
+    "title": "Demander à la maîtresse ?",
+    "notes": "On explique ce que l’on a vu et on pose une question simple. Veux‑tu demander son avis à la maîtresse ?"
+  },
+  "s2_c3": {
+    "title": "Examiner les casiers ?",
+    "notes": "On ouvre doucement, on range ce qui dépasse, et on observe. Veux‑tu examiner les casiers ?"
+  },
+  "s2_c1_key": {
+    "title": "Traces de peinture — Une clé apparaît",
+    "notes": "On suit les petites traces bleues. Elles serpentent jusqu’à un angle du couloir, puis reviennent vers la salle de sport. Près d’une caisse, on remarque un petit trousseau tombé au sol. Dedans, une clé ressemble à celle du local. On la ramasse et on la montre à un adulte pour vérification. On explique pourquoi on pense qu’elle est utile. L’adulte confirme, sourit, et nous remercie de l’avoir trouvée.\n\nOn note dans notre carnet: une clé retrouvée en suivant la piste de peinture. On la glisse dans notre inventaire et on promet de la rapporter quand le mystère sera résolu. On est fier·e de notre méthode: observer, vérifier, demander et noter. Ce sont des gestes simples qui rendent les enquêtes paisibles et efficaces. Maintenant, on retourne vers l’équipe et on se prépare pour la dernière phase."
+  },
+  "s2_c1_neutral": {
+    "title": "Traces de peinture — Piste instructive",
+    "notes": "On suit les traces avec attention. Elles deviennent plus pâles près de la porte de la cour, puis disparaissent presque. On comprend que la personne qui a laissé ces marques a nettoyé ses pas ou qu’elle a changé de chaussures. Même si nous ne trouvons pas d’objet, nous apprenons quelque chose: la piste passe par ici.\n\nOn note ce que l’on a vu: les traces s’arrêtent vers la porte, peut‑être après un nettoyage. C’est intéressant. Cela évite de chercher trop loin. Nous rejoignons l’équipe en expliquant notre observation. Les autres peuvent s’appuyer dessus pour proposer un nouveau choix."
+  },
+  "s2_c2_good": {
+    "title": "Avec la maîtresse — Un indice en plus",
+    "notes": "Nous allons voir la maîtresse. On lui raconte nos observations en quelques phrases simples. Elle nous écoute, puis elle ouvre son classeur. Elle se souvient qu’hier, un élève a demandé l’autorisation de déplacer un carton de décorations bleues juste avant la récréation. Cela pourrait expliquer les petites taches de peinture. Elle précise qu’il n’y a rien de grave: c’était pour préparer la fête. Mais elle nous conseille de noter le prénom et l’heure pour recouper avec les autres indices.\n\nOn écrit tout dans notre carnet: le prénom, l’horaire, et le carton bleu. Ce n’est pas une accusation, c’est un repère. On se dit qu’il faut encore vérifier. On remercie la maîtresse pour sa disponibilité. Grâce à cette information, notre enquête devient plus claire, et notre équipe gagne un nouvel indice."
+  },
+  "s2_c2_better": {
+    "title": "Avec la maîtresse — Confirmation précieuse",
+    "notes": "Nous parlons à la maîtresse avec calme et clarté. Elle regarde le planning et confirme deux choses: le carton de décorations bleues a bien été déplacé, et une clé du local a été empruntée hier pour ranger du matériel de sport, puis remise tardivement. Elle ne sait pas qui a rapporté la clé, mais elle propose de vérifier le cahier d’emprunts.\n\nNous notons tout: l’objet bleu, la clé empruntée, et l’idée du cahier. Ces informations confirment notre intuition et nous donnent confiance. Nous gardons un ton bienveillant: il s’agit d’aider l’école, pas de gronder. Nous remercions notre maîtresse pour sa confiance. Nous voilà mieux équipés pour la suite, avec un indice de plus dans notre inventaire."
+  },
+  "s2_c3_good": {
+    "title": "Casiers — Un petit trésor",
+    "notes": "On ouvre les casiers avec attention, un par un, toujours avec respect. Dans un casier du fond, on remarque un petit rouleau de ruban bleu, collé contre la paroi. Il est presque vide et il a une odeur de peinture légère. On le montre à un adulte pour savoir si on peut le conserver comme indice. L’adulte nous remercie de prévenir et nous dit de simplement le noter dans notre carnet.\n\nOn écrit: petit ruban bleu trouvé dans un casier. Cela complète nos observations. Ce ruban ne dit pas tout, mais il nous rapproche de la réponse. Nous rangeons le casier pour le laisser propre, et nous refermons doucement. Nous retournons voir le groupe avec le sourire. L’enquête avance bien."
+  },
+  "s2_c3_neutral": {
+    "title": "Casiers — Rien de spécial aujourd’hui",
+    "notes": "Nous examinons les casiers calmement. Nous remettons des cahiers à l’endroit, nous replions une veste tombée, et nous vérifions le fond des étagères. Rien d’évident n’apparaît. Parfois, un endroit n’a rien à raconter, et c’est très bien aussi. Nous l’acceptons avec sérénité.\n\nNous notons ce non‑résultat dans le carnet: pas d’indice dans les casiers pour le moment. L’information est utile, car elle nous permet de concentrer nos efforts ailleurs. Nous refermons les portes, nous remercions la personne qui nous a laissé regarder, et nous retournons auprès du groupe, prêts pour la phase suivante."
+  },
+  "s3_main": {
+    "title": "Phase 3 — Vers la solution",
+    "notes": "L’enquête a bien progressé. Nous avons recueilli plusieurs indices simples et respectueux: une tache de peinture bleue, un marque‑page, un ruban, une possible clé, des horairess à vérifier. Rien ne nous fait peur: tout cela ressemble à une préparation maladroite pour la fête, avec des trajets croisés et des objets qu’on a posés trop vite. Mais pour être sûrs, on doit encore vérifier le bon endroit.\n\nTrois destinations s’offrent à nous. Le local de sport, d’abord: c’est là que se rangent de nombreux objets. On n’y entre qu’avec autorisation et avec une clé. La salle de musique, ensuite: elle garde peut‑être une piste sonore, comme un sac qu’on a posé pendant une répétition. Enfin, la cantine: on y croise du monde tôt le matin; on peut y apprendre quelque chose d’important. Nous restons ensemble, nous parlons doucement, et nous choisissons notre dernière étape. Quelle que soit la fin, notre équipe a montré de la patience, de l’écoute et de la coopération. Nous allons conclure avec douceur et clarté."
+  },
+  "s3_c1": {
+    "title": "Aller au local de sport ?",
+    "notes": "Veux‑tu essayer d’ouvrir le local de sport pour vérifier ce qu’il s’y trouve ?"
+  },
+  "s3_c2": {
+    "title": "Aller en salle de musique ?",
+    "notes": "Veux‑tu aller en salle de musique pour vérifier si un indice sonore nous aide ?"
+  },
+  "s3_c3": {
+    "title": "Aller à la cantine ?",
+    "notes": "Veux‑tu aller à la cantine pour poser des questions gentiment au personnel ?"
+  },
+  "s3_c1_final": {
+    "title": "Final — Le local s’ouvre",
+    "notes": "Avec l’autorisation d’un adulte, nous essayons la clé. Elle tourne doucement, et la porte du local s’ouvre. À l’intérieur, tout est là: le matériel, les cartons de décorations bleues, et un sac posé en évidence. Un petit mot est collé sur le sac: Désolé, j’ai rangé en vitesse pour aider hier soir. J’ai oublié de prévenir. On sourit. Il ne s’agissait pas d’une mauvaise action, mais d’un oubli. Nous rangeons les objets à leur place, nous refermons la porte, et nous remercions la personne qui nous accompagne.\n\nNous faisons le point: grâce à nos observations, nos questions polies, et notre carnet, nous avons retrouvé la trace du matériel. L’école est soulagée, la classe est fière, et la fête pourra continuer. Nous gardons en tête notre méthode: observer, demander, vérifier, noter et coopérer. C’est une belle victoire collective. On peut maintenant clore l’enquête en douceur."
+  },
+  "s3_c1_locked": {
+    "title": "Final — Le local est fermé",
+    "notes": "Nous arrivons devant la porte du local, mais nous n’avons pas la bonne clé. Ce n’est pas grave. Nous notons l’information et nous demandons l’aide d’un adulte pour vérifier plus tard. En attendant, nous faisons un dernier tour des lieux. La fête se prépare bien, et l’école est tranquille. Nous comprenons qu’une enquête ne se termine pas toujours d’un coup. Parfois, elle se termine plus tard, quand on a réuni les autorisations et les indices.\n\nNous décidons de clôturer la séance calmement. Nous félicitons l’équipe pour son attention et sa coopération. Nous avons appris à regarder, à poser des questions, et à garder des traces écrites. C’est déjà une réussite."
+  },
+  "s3_c2_final": {
+    "title": "Final — La piste sonore",
+    "notes": "En entrant dans la salle de musique, nous entendons une mélodie douce. Sur une chaise, un sac bleu est posé. À l’intérieur, des objets pour la fête: rubans, pinceaux, et un carnet avec des horaires. Un message y explique qu’hier, la chorale répétait tard, et qu’une personne a posé le sac ici pour ne pas le laisser traîner. Elle a oublié de le rapporter. Grâce à nos indices, nous avons su venir au bon endroit. Nous remercions l’adulte présent, nous rangeons le sac à sa place, et nous notons la conclusion dans notre carnet. Notre enquête trouve une belle réponse: la coopération et l’attention ont permis de retrouver le matériel."
+  },
+  "s3_c2_neutral": {
+    "title": "Final — La musique n’aide pas",
+    "notes": "Nous visitons la salle de musique et nous écoutons attentivement. Les instruments sont rangés, les chaises sont alignées. Aucun indice n’apparaît aujourd’hui. Ce n’est pas grave. Nous faisons un dernier tour du regard, nous remercions pour l’accueil, et nous sortons. Même sans réponse immédiate, nous savons que notre démarche a été utile et respectueuse."
+  },
+  "s3_c3_final": {
+    "title": "Final — L’aide de la cantine",
+    "notes": "À la cantine, nous demandons poliment si quelqu’un a vu un sac ou une boîte bleue. Le personnel se rappelle avoir aperçu un petit carton posé sur une table tôt le matin. Il a été mis de côté pour qu’il ne gêne pas la préparation du repas. Nous expliquons notre enquête, on nous le montre, et à l’intérieur, nous retrouvons des objets qui manquaient. Tout va bien: c’était un simple oubli. Nous disons merci, nous rangeons le carton au bon endroit, et nous écrivons la fin de notre histoire: quand on coopère et qu’on parle gentiment, on retrouve ce qui manque."
+  },
+  "s3_c3_neutral": {
+    "title": "Final — La cantine est occupée",
+    "notes": "La cantine est en plein travail. On ne veut pas déranger. On pose une question courte, on sourit, et on comprend qu’aujourd’hui, il n’y a pas d’indice clair à cet endroit. On remercie, on salue, et on repart. Notre enquête se termine sans objet, mais avec l’envie de recommencer une autre fois, toujours dans le calme et la coopération."
+  },
+  "s_end": {
+    "title": "Conclusion — Bravo et merci",
+    "notes": "Bravo, notre équipe a mené une enquête douce et efficace. On a appris à observer, à écouter, à poser des questions et à noter nos découvertes. On ne s’est pas pressés. On a pris soin des lieux et des personnes. On a compris que les mystères d’école viennent souvent d’un oubli ou d’un objet rangé trop vite. Ce n’est pas grave: on peut réparer ensemble.\n\nAujourd’hui, grâce à nos choix, le matériel a été retrouvé et chacun se sent utile. Demain, si un autre mystère apparaît, on saura comment faire: avancer pas à pas, avec des mots gentils, des gestes calmes, et l’aide des adultes. Merci pour ta participation, ton attention et ta joie d’enquêter. À bientôt pour une nouvelle histoire !"
+  }
+}
