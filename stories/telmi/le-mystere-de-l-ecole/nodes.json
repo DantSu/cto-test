@@ -1,17 +1,16 @@
 {
   "startAction": { "action": "a0", "index": 0 },
-  "backStage": "s_back",
   "inventory": [
     { "name": "Indices", "initialNumber": 0, "maxNumber": 10, "display": 2, "image": "i0.png" },
     { "name": "Clé du local", "initialNumber": 0, "maxNumber": 1, "display": 2, "image": "i1.png" }
   ],
   "stages": {
-    "s_back": {
+    "backStage": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a0", "index": 0 },
+      "ok": { "action": "backChildAction", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
-      "control": { "ok": true, "home": true, "autoplay": false }
+      "control": { "ok": true, "home": false, "autoplay": true }
     },
 
     "s1_main": {
@@ -269,7 +268,7 @@
     ],
     "a1_c3_cons": [
       { "stage": "s1_c3_good" },
-      { "stage": "s1_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 0 } ] }
+      { "stage": "s1_c3_neutral", "conditions": [ { "comparator": 0, "item": 0, "number": 1 } ] }
     ],
 
     "a2_main": [ { "stage": "s2_main" } ],
@@ -283,13 +282,12 @@
       { "stage": "s2_c1_neutral" }
     ],
     "a2_c2_cons": [
-      { "stage": "s2_c2_good",   "conditions": [ { "comparator": 4, "item": 0, "number": 0 } ] },
+      { "stage": "s2_c2_good",   "conditions": [ { "comparator": 0, "item": 0, "number": 2 } ] },
       { "stage": "s2_c2_better", "conditions": [ { "comparator": 4, "item": 0, "number": 2 } ] }
     ],
     "a2_c3_cons": [
       { "stage": "s2_c3_good" },
-      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 0 } ] },
-      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 2, "item": 0, "number": 1 } ] }
+      { "stage": "s2_c3_neutral", "conditions": [ { "comparator": 0, "item": 0, "number": 2 } ] }
     ],
 
     "a3_main": [ { "stage": "s3_main" } ],
@@ -313,7 +311,7 @@
 
     "a_end": [ { "stage": "s_end" } ],
 
-    "backAction": [ { "stage": "s_back" } ],
-    "backChildAction": [ { "stage": "s_back" } ]
+    "backAction": [ { "stage": "backStage" } ],
+    "backChildAction": []
   }
 }
