@@ -46,14 +46,14 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 0, "item": 0, "number": 1 } ],
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c1_good", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s1_c1_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c1_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -62,14 +62,14 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 2, "item": 1, "number": 1 } ],
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c2_key", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s1_c2_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c2_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -78,14 +78,14 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 0, "item": 0, "number": 1 } ],
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c3_good", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s1_c3_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a2_main", "index": 0 },
+      "ok": { "action": "a2_main_s1_c3_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -123,14 +123,14 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 2, "item": 1, "number": 1 } ],
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c1_key", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s2_c1_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c1_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -139,7 +139,7 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 0, "item": 0, "number": 1 } ],
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c2_good", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -147,7 +147,7 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 0, "item": 0, "number": 1 } ],
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c2_better", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -156,14 +156,14 @@
       "image": null,
       "audio": null,
       "items": [ { "type": 0, "item": 0, "number": 1 } ],
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c3_good", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s2_c3_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a3_main", "index": 0 },
+      "ok": { "action": "a3_main_s2_c3_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -200,14 +200,14 @@
     "s3_c1_final": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c1_final", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s3_c1_locked": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c1_locked", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -215,14 +215,14 @@
     "s3_c2_final": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c2_final", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s3_c2_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c2_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -230,14 +230,14 @@
     "s3_c3_final": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c3_final", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
     "s3_c3_neutral": {
       "image": null,
       "audio": null,
-      "ok": { "action": "a_end", "index": 0 },
+      "ok": { "action": "a_end_s3_c3_neutral", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     },
@@ -245,7 +245,7 @@
     "s_end": {
       "image": null,
       "audio": null,
-      "ok": { "action": "backChildAction", "index": 0 },
+      "ok": { "action": "a_end_return", "index": 0 },
       "home": { "action": "backAction", "index": 0 },
       "control": { "ok": true, "home": true, "autoplay": true }
     }
@@ -269,6 +269,13 @@
     ],
 
     "a2_main": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c1_good": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c1_neutral": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c2_key": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c2_neutral": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c3_good": [ { "stage": "s2_main" } ],
+    "a2_main_s1_c3_neutral": [ { "stage": "s2_main" } ],
+
     "a2_choices": [
       { "stage": "s2_c1" },
       { "stage": "s2_c2" },
@@ -287,6 +294,13 @@
     ],
 
     "a3_main": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c1_key": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c1_neutral": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c2_good": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c2_better": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c3_good": [ { "stage": "s3_main" } ],
+    "a3_main_s2_c3_neutral": [ { "stage": "s3_main" } ],
+
     "a3_choices": [
       { "stage": "s3_c1" },
       { "stage": "s3_c2" },
@@ -306,6 +320,14 @@
     ],
 
     "a_end": [ { "stage": "s_end" } ],
+    "a_end_s3_c1_final": [ { "stage": "s_end" } ],
+    "a_end_s3_c1_locked": [ { "stage": "s_end" } ],
+    "a_end_s3_c2_final": [ { "stage": "s_end" } ],
+    "a_end_s3_c2_neutral": [ { "stage": "s_end" } ],
+    "a_end_s3_c3_final": [ { "stage": "s_end" } ],
+    "a_end_s3_c3_neutral": [ { "stage": "s_end" } ],
+
+    "a_end_return": [ { "stage": "backStage" } ],
 
     "backAction": [ { "stage": "backStage" } ],
     "backChildAction": []
